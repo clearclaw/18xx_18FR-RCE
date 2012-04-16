@@ -80,7 +80,7 @@ figs-within-sections
 \end_layout
 
 \begin_layout Author
-Game design by: J C Lawrence
+Game design: J C Lawrence
 \end_layout
 
 \begin_layout Standard
@@ -337,7 +337,7 @@ name "sec:Game-Setup"
 \end_layout
 
 \begin_layout Itemize
-Place the map and IPO chart where they may be easily seen and accessed by
+Place the map and IPO chart where they can be easily seen and accessed by
  all players.
 \end_layout
 
@@ -376,7 +376,7 @@ Place the six port tokens on the anchor symbols beside the ports on the
 \lang british
 Boulogne-sur-mer
 \lang english
-/Calais (C18), Bordeaux (H7), Brest (A6), Le Havre (C14), Marseilles (N15)
+/Calais (C18), Bordeaux (H7), Brest (A6), Le Havre (C14), Marseille (N15)
  and Toulouse (K8)).
  
 \end_layout
@@ -680,7 +680,7 @@ reference "sub:Stock-Rounds"
 \begin_layout Itemize
 At the end of each stock round the player order for the next stock round
  is determined by each player's remaining cash in descending order (ties
- retain the prior relative order) (see 
+ retain the prior relative order - see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Stock-Round-General"
@@ -1272,7 +1272,7 @@ The auction starts with the player with the #1 player card and proceeds
 \end_layout
 
 \begin_layout Itemize
-Each player in turn may do one of: 
+Each player in turn must do one of: 
 \end_layout
 
 \begin_deeper
@@ -1588,7 +1588,7 @@ Exception: The stock round ends immediately when all players pass in sequence.
 \end_deeper
 \begin_layout Itemize
 The player order for the next stock round is set at the end of the stock
- round, using the player cards, in descending order of player cash.
+ round using the numbered player cards in descending order of player cash.
 \end_layout
 
 \begin_deeper
@@ -1614,7 +1614,7 @@ reference "sub:game-overview"
 
 \end_inset
 
-and
+, 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Game-Phases"
@@ -1643,20 +1643,19 @@ name "sub:Selling-shares"
 \end_layout
 
 \begin_layout Itemize
-Players may not sell shares in the the first stock round following the private
+Players cannot sell shares in the the first stock round following the private
  auction.
 \end_layout
 
 \begin_layout Itemize
-Players may not sell shares of a company that does not have a par price
- (e.g.
+Players cannot sell shares of a company that does not have a par price (e.g.
  the 10% share of the 
 \noun on
 Administration des chemins de fer de l'État
 \noun default
  (ETA) that comes with the 
 \noun on
-Cie de Bologne - Amiens
+Cie de Boulogne - Amiens
 \noun default
  private company before the director's certificate has be bought and the
  company parred -- see 
@@ -1679,13 +1678,13 @@ Sold certificates are placed in the bank pool.
 \end_layout
 
 \begin_layout Itemize
-No more than 50% of a company (five 10% certificates) may be in the bank
+No more than 50% of a company (five 10% certificates) can be in the bank
  pool at any time.
 \end_layout
 
 \begin_layout Itemize
-The player receives the value of the share(s) at the time they are sold
- from the bank.
+The player receives the value of the share(s) from the bank at the time
+ they are sold.
 \end_layout
 
 \begin_layout Itemize
@@ -1712,7 +1711,7 @@ name "sub:Buying-shares"
 \end_layout
 
 \begin_layout Itemize
-Only one stock certificate may be bought per player-turn or action in the
+Only one stock certificate can be bought per player-turn or action in the
  stock round.
 \end_layout
 
@@ -1744,8 +1743,8 @@ reference "sub:Company-directors"
 \end_layout
 
 \begin_layout Itemize
-Players may buy 10% certificates of companies only if they been parred (see
- 
+Players can buy 10% certificates of companies only if they have been parred
+ (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Starting-or-floating"
@@ -1766,7 +1765,7 @@ From the bank pool for the current stock price.
 
 \end_deeper
 \begin_layout Itemize
-A player may not buy a certificate of a company if they have sold one or
+A player cannot buy a certificate of a company if they have sold one or
  more shares of that company in this stock round.
 \end_layout
 
@@ -1781,13 +1780,13 @@ The purchase price for certificates is paid to the bank.
 \end_layout
 
 \begin_layout Itemize
-A player may not own more than 60% of a company (20% director's certificate
+A player cannot own more than 60% of a company (20% director's certificate
  and four 10% certificates).
 \end_layout
 
 \begin_deeper
 \begin_layout Description
-Exception: Players may own more than 60% of a company whose stock price
+Exception: Players can own more than 60% of a company whose stock price
  marker is in the orange or brown section of the stock market.
 \end_layout
 
@@ -1845,7 +1844,12 @@ reference "sub:Game-Phases"
 \end_deeper
 \begin_layout Enumerate
 Putting the company's par price marker in the matching box of the par price
- chart,
+ chart.
+\end_layout
+
+\begin_layout Enumerate
+Putting the company's stock price marker in the matching coloured box in
+ the diagonal line of par prices on the stock market
 \end_layout
 
 \begin_layout Enumerate
@@ -1894,7 +1898,7 @@ floated
 \begin_deeper
 \begin_layout Itemize
 10 times the company's par price is placed on the company's charter as the
- initial capital for the company
+ initial capital for the company.
 \end_layout
 
 \begin_layout Itemize
@@ -1947,40 +1951,13 @@ The player that holds the most shares of a company (largest total percentage),
 \end_layout
 
 \begin_layout Itemize
-The 20% director's certificate may never be sold.
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-When selling shares, the director's share may be exchanged for two 10% certifica
-tes of the player with the most shares of the company after the sale, assigning
- control of the company, its charter and assets to that player.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-In this case the previous director must sell sufficient shares of the company
- that they own fewer shares of the company than the new director after the
- sale.
-\end_layout
-
-\begin_layout Itemize
-In the case of a tie among other players for the most shares after the sale,
- the next tied player in player card order from the current director becomes
- the new director.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Itemize
 If a player buys shares such that they own a larger percentage of company
  than the current director:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-They become the new comp[any director by exchanging two 10% certificates
+They become the new company director by exchanging two 10% certificates
  of the company for the 20% director's certificate of the company and taking
  control of the company charter and its assets.
 \end_layout
@@ -1996,6 +1973,31 @@ Once a company has floated, there is always a player that owns the 20% director'
 s certificate and is the director of the company.
 \end_layout
 
+\begin_layout Itemize
+In order to transfer director control of a company:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The director's share must be exchanged for two 10% certificates of the player
+ with the most shares of the company after the sale, assigning control of
+ the company, its charter and assets to that player.
+\end_layout
+
+\begin_layout Enumerate
+The previous director must sell sufficient shares of the company that they
+ own fewer shares of the company than the new director after the sale.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In the case of a tie among other players for the most shares after the sale,
+ the next tied player in player card order from the current director becomes
+ the new director.
+\end_layout
+
+\end_deeper
+\end_deeper
 \end_deeper
 \begin_layout Subsection
 Certificate limit
@@ -2015,8 +2017,8 @@ A certificate is a 20% director's share of a company, a 10% share of a company,
 \end_layout
 
 \begin_layout Itemize
-A player may not own more certificates than the limit specified for the
- number of players in the game (see 
+A player cannot own more certificates than the limit specified for the number
+ of players in the game (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "tab:Starting-Player-Capital"
@@ -2027,9 +2029,10 @@ reference "tab:Starting-Player-Capital"
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-Certificates of companies whose stock price marker is in the yellow, orange
- or brown section of the stock market do not count against the certificate
+\begin_layout Description
+Exception: Certificates of companies whose stock price marker is in the
+ yellow, orange or brown section in the lower left corner of the stock market
+ (not the coloured par price locations) do not count against the certificate
  limit.
 \end_layout
 
@@ -2039,10 +2042,19 @@ A player must own fewer certificates than the certificate limit before buying
  an additional certificate.
 \end_layout
 
+\begin_deeper
+\begin_layout Description
+Exception: Players at certificate limit can purchase shares whose stock
+ price marker is in the yellow, orange or brown section in the lower left
+ corner the stock market (not the par price locations).
+ 
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
-If a player's holdings exceed the certificate limit at the start of their
- first turn in a stock round, they must sell sufficient certificates for
- their holdings to be within the certificate limit after the sale (see 
+If a player's holdings exceed the certificate limit, they must sell sufficient
+ certificates in their next opportunity for their holdings to be within
+ the certificate limit after the sale (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Selling-shares"
@@ -2181,12 +2193,20 @@ When a stock price marker is moved, it is placed under any stock price markers
 \end_layout
 
 \begin_layout Itemize
-If shares of multiple companies are sold at the same time, the player may
+If shares of multiple companies are sold at the same time, the player must
  decide the order in which they are sold and thus the order in which their
- stock price markers are moved (see 
+ stock price markers are moved and potentially the order in which they operate
+ (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Selling-shares"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Company-operating-order"
 
 \end_inset
 
@@ -2216,12 +2236,13 @@ name "sub:OR-General"
 \end_layout
 
 \begin_layout Enumerate
-Private companies pay their revenue (show on their certificate) to their
- player or company owners.
+Private companies pay their revenue (shown on their certificate) from the
+ bank to their player or company owners.
 \end_layout
 
 \begin_layout Enumerate
-Each port marker owned by a company pays 20fr to company treasury.
+Each port marker owned by a company pays 20fr from the bank to that company's
+ treasury.
 \end_layout
 
 \begin_layout Enumerate
@@ -2432,7 +2453,7 @@ reference "sub:Private-Companies"
 \begin_layout Description
 Exception: In yellow phase and only in 6-player games, the 
 \noun on
-Cie de Val de Loire
+Cie du Val de Loire
 \noun default
  may be bought at any time during a company's operation for exactly face
  value (see 
@@ -2531,7 +2552,7 @@ Chemins de fer de l'Est
 \uwave default
 \noun on
 \color inherit
- Chemin de Fer du Midi
+ Chemin de fer du Midi
 \family roman
 \series medium
 \shape up
@@ -2555,7 +2576,7 @@ Chemins de fer de l'Est
 \uwave default
 \noun on
 \color inherit
-Chemins de Fer de l'Ouest
+Chemins de fer de l'Ouest
 \family roman
 \series medium
 \shape up
@@ -2579,7 +2600,7 @@ Chemins de Fer de l'Ouest
 \uwave default
 \noun on
 \color inherit
-Chemins de Fer de Provence
+Chemins de fer de Provence
 \family roman
 \series medium
 \shape up
@@ -2603,7 +2624,7 @@ Chemins de Fer de Provence
 \uwave default
 \noun on
 \color inherit
-Chemin de Fer du Sud - Ouest
+Chemin de fer du Sud - Ouest
 \family roman
 \series medium
 \shape up
@@ -2632,8 +2653,8 @@ Exception: The supply of yellow #7, #8 and #9 track tiles is unlimited.
 
 \end_deeper
 \begin_layout Itemize
-Yellow track tiles may be placed on the towns, cities and rural hexagons
- of the map and may not be placed on red off board hexagons, or gray prebuilt
+Yellow track tiles can be placed on the towns, cities and rural hexagons
+ of the map and cannot be placed on red off board hexagons, or gray prebuilt
  hexagons (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -2792,17 +2813,17 @@ Crossing any hexagon-edge twice.
 \end_layout
 
 \begin_layout Itemize
-Reversing direction on a simple track tile.
+Reversing direction at a junction on a simple track tile.
 \end_layout
 
 \begin_layout Description
 Exception: A track tile placed using the power of the 
 \noun on
-Cie de Paris - St Germain, Cie de Le Havre
+Cie de Paris - Saint-Germain, Cie du Havre
 \noun default
  or 
 \noun on
-Cie de Bologne - Amiens
+Cie de Boulogne - Amiens
 \noun default
  private companies is not subject to the above track limits (see 
 \begin_inset CommandInset ref
@@ -2816,7 +2837,7 @@ reference "sub:Private-Particulars"
 
 \end_deeper
 \begin_layout Itemize
-Track tiles may not be placed such that a line of track:
+Track tiles must not be placed such that a line of track:
 \end_layout
 
 \begin_deeper
@@ -2925,12 +2946,12 @@ Crossing any hexagon-edge twice.
 \end_layout
 
 \begin_layout Itemize
-Reversing direction on a simple track tile.
+Reversing direction at a junction on a simple track tile.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Track tiles may not be upgraded such that a line of track:
+Track tiles must not be upgraded such that a line of track:
 \end_layout
 
 \begin_deeper
@@ -3010,9 +3031,9 @@ Track tiles marked with a city name must be used when placing a track tile
 
 \begin_deeper
 \begin_layout Itemize
-The track tiles for Lille, Lyon & Paris may only be placed such that the
- city-name on the tile reads from left-to-right when viewed from the bottom
- of the map.
+The track tiles for Lille, Lyon & Paris must be placed such that the city-name
+ on the tile reads from left-to-right when viewed from the bottom of the
+ map.
 \end_layout
 
 \begin_layout Itemize
@@ -3024,7 +3045,7 @@ OO
 \begin_inset Quotes erd
 \end_inset
 
- track tiles may be used on 
+ track tiles can be used on 
 \begin_inset Quotes erd
 \end_inset
 
@@ -3073,7 +3094,7 @@ Chemins de fer de l'Est
 \uwave default
 \noun on
 \color inherit
- Chemin de Fer du Midi
+ Chemin de fer du Midi
 \family roman
 \series medium
 \shape up
@@ -3097,7 +3118,7 @@ Chemins de fer de l'Est
 \uwave default
 \noun on
 \color inherit
-Chemins de Fer de l'Ouest
+Chemins de fer de l'Ouest
 \family roman
 \series medium
 \shape up
@@ -3121,7 +3142,7 @@ Chemins de Fer de l'Ouest
 \uwave default
 \noun on
 \color inherit
-Chemins de Fer de Provence
+Chemins de fer de Provence
 \family roman
 \series medium
 \shape up
@@ -3145,7 +3166,7 @@ Chemins de Fer de Provence
 \uwave default
 \noun on
 \color inherit
-Chemin de Fer du Sud - Ouest
+Chemin de fer du Sud - Ouest
 \family roman
 \series medium
 \shape up
@@ -3172,7 +3193,7 @@ reference "sub:Placing-Track"
 \begin_layout Itemize
 In brown phase the 
 \noun on
-Chemin de Fer du Midi
+Chemin de fer du Midi
 \family roman
 \series medium
 \shape up
@@ -3196,7 +3217,7 @@ Chemin de Fer du Midi
 \uwave default
 \noun on
 \color inherit
-Chemins de Fer de Provence
+Chemins de fer de Provence
 \family roman
 \series medium
 \shape up
@@ -3220,10 +3241,10 @@ Chemins de Fer de Provence
 \uwave default
 \noun on
 \color inherit
-Chemin de Fer du Sud - Ouest
+Chemin de fer du Sud - Ouest
 \noun default
  may place or upgrade any port location (Boulogne-sur-mer/Calais (C18),
- Bordeaux (H7), Brest (A6), Le Havre (C14), Marseilles (N15) and Toulouse
+ Bordeaux (H7), Brest (A6), Le Havre (C14), Marseille (N15) and Toulouse
  (K8)) to or from which they can trace a line of track, directly to a brown
  track tile as if there were already a green track tile there (see 
 \begin_inset CommandInset ref
@@ -3296,17 +3317,17 @@ Crossing any hexagon-edge twice.
 \end_layout
 
 \begin_layout Itemize
-Reversing direction on a simple track tile.
+Reversing direction at a junction on a simple track tile.
 \end_layout
 
 \begin_layout Description
 Exception: Station markers may be placed using the power of either the 
 \noun on
-Cie de Le Havre
+Cie du Havre
 \noun default
  or 
 \noun on
-Cie de Bologne - Amiens
+Cie de Boulogne - Amiens
 \noun default
  private companies without satisfying the above limits (see 
 \begin_inset CommandInset ref
@@ -3321,7 +3342,7 @@ reference "sub:Private-Particulars"
 \end_deeper
 \end_deeper
 \begin_layout Itemize
-A company may not place:
+A company cannot place:
 \end_layout
 
 \begin_deeper
@@ -3347,7 +3368,7 @@ A station marker in the last available city circle of a hexagon that is
 \begin_layout Itemize
 A station marker at Albi/Montauban (J9) until the 
 \noun on
-Chemin de Fer du Midi
+Chemin de fer du Midi
 \noun default
  has placed its home station on one side or the other of a track tile at
  Albi/Montauban (J9).
@@ -3438,7 +3459,7 @@ Crossing any hexagon-edge twice.
 \end_layout
 
 \begin_layout Itemize
-Reversing direction on a simple track tile.
+Reversing direction at a junction on a simple track tile.
 \end_layout
 
 \end_deeper
@@ -3468,7 +3489,7 @@ name "par:Claiming-a-port"
 
 \begin_layout Itemize
 There are 6 port markers, one each in Boulogne-sur-mer/Calais (C18), Bordeaux
- (H7), Brest (A6), Le Havre (C14), Marseilles (N15) and Toulouse (K8).
+ (H7), Brest (A6), Le Havre (C14), Marseille (N15) and Toulouse (K8).
 \end_layout
 
 \begin_deeper
@@ -3574,7 +3595,7 @@ Off boards are termini.
 
 \begin_deeper
 \begin_layout Description
-Exception: A route may pass through Genève.
+Exception: A route can pass through Genève.
 \end_layout
 
 \end_deeper
@@ -3668,7 +3689,7 @@ The routes of multiple trains run by the same company during an operating
 
 \begin_deeper
 \begin_layout Itemize
-The routes may meet or cross at towns or cities provided that they use entirely
+The routes can meet or cross at towns or cities provided that they use entirely
  separate sections of track.
 \end_layout
 
@@ -3694,7 +3715,7 @@ stops
 
 \begin_layout Itemize
 The total number and variety of towns, cities or off boards in the route
- run by a train may not exceed the range of the type of train (specified
+ run by a train must not exceed the range of the type of train (specified
  on its certificate - see: 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -3827,7 +3848,7 @@ The entire revenue is paid by the bank to the company treasury.
 
 \end_deeper
 \begin_layout Itemize
-Paying or withholding dividends can affect the company's stock price (see:
+Paying or withholding dividends may affect the company's stock price (see:
  
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -3881,7 +3902,7 @@ reference "sub:Train-Limit"
 \end_layout
 
 \begin_layout Itemize
-Train certificates may be bought from the bank pool or supply for face value,
+Train certificates can be bought from the bank pool or supply for face value,
  or from another company for any price agreed upon by the directors of both
  companies (minimum 1fr, also see 
 \begin_inset CommandInset ref
@@ -3929,7 +3950,7 @@ reference "sub:Train-types"
 \begin_deeper
 \begin_layout Itemize
 A company with sufficient treasury for the purchase and spare capacity within
- the train limit may buy either side of a double-sided train certificate
+ the train limit can buy either side of a double-sided train certificate
  from the supply for the marked price (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -4027,8 +4048,30 @@ All the rusted single (not
 ) train certificates are available simultaneously.
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
-Rusted train certificates may only be bought using money only from the company
+This includes both the 
+\begin_inset Quotes eld
+\end_inset
+
+2+1
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+3+1
+\begin_inset Quotes erd
+\end_inset
+
+ yellow trains for 125fr and 200fr respectively.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Rusted train certificates can only be bought using money from the company
  treasury.
 \end_layout
 
@@ -4039,7 +4082,7 @@ Rusted train certificates may be bought between companies in the normal
 \end_layout
 
 \begin_layout Itemize
-A company can not own more than one rusted train certificate.
+A company cannot own more than one rusted train certificate.
 \end_layout
 
 \begin_layout Itemize
@@ -4082,7 +4125,7 @@ reference "par:Train-purchasing"
 \begin_layout Itemize
 A company with a route (a line of track from one of its station markers
  to a town, city or off board) must own a train certificate at the end of
- the train buying step when operates during an operating round (see 
+ the train buying step when it operates during an operating round (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "par:Route-definition"
@@ -4119,7 +4162,7 @@ name "sub:Train-Limit"
 \end_layout
 
 \begin_layout Itemize
-The number of trains and train certificates a company may own is limited
+The number of trains and train certificates a company can own is limited
  by the game phase (see
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -4234,7 +4277,7 @@ A yellow
 \begin_inset Quotes erd
 \end_inset
 
- train can be run as two 
+ train may be run as two 
 \begin_inset Quotes eld
 \end_inset
 
@@ -4294,7 +4337,7 @@ A
 \bar no
 \noun off
 \color none
-
+yellow 
 \begin_inset Quotes eld
 \end_inset
 
@@ -4389,7 +4432,7 @@ reference "sub:Selling-shares"
 
 \begin_deeper
 \begin_layout Itemize
-Director control of the currently operating company many not be transferred
+Director control of the currently operating company may not be transferred
  to another player during Emergency Train Buying (see 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -4445,20 +4488,20 @@ reference "sub:Game-end"
 \end_layout
 
 \begin_layout Itemize
-The company director may only contribute funds for a train certificate purchase
+The company director can only contribute funds for a train certificate purchase
  if the company is obligated to own a train certificate (has a route), and
  does not own a train certificate.
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-The company director may not contribute more money than is required to buy
+The company director cannot contribute more money than is required to buy
  the selected train certificate.
 \end_layout
 
 \begin_layout Itemize
-A train certificate bought from other companies with director's contributions
- may not be bought for more than face value.
+A train certificate bought from another company with director's contributions
+ cannot be bought for more than face value.
 \end_layout
 
 \begin_deeper
@@ -4642,11 +4685,11 @@ g the working subtitle for the game along with many language points and
 , and Michael Calhoon for his bounteous supply of notions, complaints and
  sounding board in equal measures.
  Additional thanks go to the many play-testers, some few of whom are Daniel
- Barnes, Jim Black, Michael Calhoon, Aliza Panitz, Ron Sapolsky and Tim
- Skirvin.
+ Barnes, Dave Berry, Jim Black, Michael Calhoon, Aliza Panitz, Ron Sapolsky
+ and Tim Skirvin.
  Credit also goes to those who helped correct the various names and spellings
  for the map and other components, including James Cheevers, David G Hecht,
- Bruce Murphy and Steve Thomas.
+ Guy-Luc Jouan, Bruce Murphy and Steve Thomas.
  I have been honoured to design games for and with such wonderful people.
  
 \end_layout
@@ -4680,8 +4723,7 @@ The map consists of various types of hexagons:
 
 \begin_deeper
 \begin_layout Description
-Cities Contain large white circles along with the name(s) of the cities
- there.
+Cities Contain large white circles along with the name(s) of the cities.
 \end_layout
 
 \begin_layout Description
@@ -4734,7 +4776,7 @@ Gray
 \end_inset
 
 hexagons Prebuilt un-alterable/un-upgradeable track.
- Track tiles can not be placed on gray hexes, or adjacent to them such that
+ Track tiles cannot be placed on gray hexes, or adjacent to them such that
  a line of track runs into a blank gray hexagon-edge.
  
 \end_layout
@@ -4751,7 +4793,7 @@ hexagons Represent yellow pre-built track tiles on the map.
 \end_deeper
 \begin_layout Itemize
 Terrain is marked with blue (river) and brown (hill or mountain) triangles
- containing the terrain cost for building track there.
+ containing the terrain cost for building track.
 \end_layout
 
 \begin_layout Itemize
@@ -4782,7 +4824,7 @@ reference "sub:Private-Particulars"
 \begin_layout Itemize
 Six hexagons are also ports and are marked with a nearby anchor symbol:
  Boulogne-sur-mer/Calais (C18), Bordeaux (H7), Brest (A6), Le Havre (C14),
- Marseilles (N15) and Toulouse (K8) (see 
+ Marseille (N15) and Toulouse (K8) (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "par:Claiming-a-port"
@@ -4912,7 +4954,7 @@ reference "sub:Private-Particulars"
 \begin_layout Description
 Exception In a 6-player game the 
 \noun on
-Cie de Val de Loire
+Cie du Val de Loire
 \noun default
  may be purchased by a
 \noun on
@@ -4925,8 +4967,8 @@ public company for face value in yellow phase
 
 \end_deeper
 \begin_layout Itemize
-Most private companies block specific hexes on the map and track tiles may
- not be built or upgraded at those hexes until the matching private company
+Most private companies block specific hexes on the map and track tiles cannot
+ be built or upgraded at those hexes until the matching private company
 \noun on
  
 \noun default
@@ -4978,7 +5020,7 @@ name "sub:Private-Particulars"
 \begin_layout Enumerate
 
 \noun on
-Compagnie de Toulouse à Barcelona
+Compagnie de Toulouse à Barcelone
 \end_layout
 
 \begin_deeper
@@ -5011,7 +5053,7 @@ Power: An owning public company may place an additional yellow track tile
  The cost is 20fr paid from the company treasury to the bank.
  The 
 \noun on
-Compagnie de Toulouse à Barcelona
+Compagnie de Toulouse à Barcelone
 \noun default
  is then closed and removed from the game.
  The extra yellow track tile may be placed either immediately before or
@@ -5067,7 +5109,7 @@ Use: None.
 \begin_layout Enumerate
 
 \noun on
-Cie de Paris - St Germain
+Cie de Paris - Saint-Germain
 \end_layout
 
 \begin_deeper
@@ -5101,7 +5143,7 @@ Power: An owning public company may place a yellow track tile at E13 at
  the placing company's routes.
  This does not close the 
 \noun on
-Cie de Paris - St Germain.
+Cie de Paris - Saint-Germain.
 \end_layout
 
 \begin_layout Description
@@ -5112,7 +5154,7 @@ Use: The power may be used at any time during a company's operation.
 \begin_layout Enumerate
 
 \noun on
-Cie de Le Havre
+Cie du Havre
 \end_layout
 
 \begin_deeper
@@ -5146,7 +5188,7 @@ Power: An owning public company may place a yellow track tile and station
  at Le Havre (C14).
  This does not close the 
 \noun on
-Cie de Le Havre.
+Cie du Havre.
 \end_layout
 
 \begin_layout Description
@@ -5158,7 +5200,7 @@ Use: The power may be used during the track-building step of a company's
 \begin_layout Enumerate
 
 \noun on
-Cie de Val de Loire
+Cie du Val de Loire
 \end_layout
 
 \begin_deeper
@@ -5204,7 +5246,7 @@ action in yellow phase or later, or at any time during an operating round,
  if one is available.
  The 
 \noun on
-Cie de Val de Loire
+Cie du Val de Loire
 \noun default
  is then closed and removed from the game.
 \end_layout
@@ -5214,10 +5256,18 @@ Or:
 \end_layout
 
 \begin_layout Itemize
-If owned by a public company, the director may declare during the train-purchasi
-ng step of the company's operations that a specific train certificate currently
- owned by the company will obsolete instead of rusting.
- The preserved train certificate is marked with the 
+If owned by a public company, the company director may declare during the
+ train-purchasing step of the company's operations that a specific train
+ certificate currently owned by the company will 
+\begin_inset Quotes eld
+\end_inset
+
+obsolete
+\begin_inset Quotes erd
+\end_inset
+
+ instead of rusting.
+ The selected train certificate is marked with the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -5227,7 +5277,7 @@ Engineers
 
  card and the 
 \noun on
-Cie de Val de Loire
+Cie du Val de Loire
 \noun default
  is then closed and removed from the game.
 \end_layout
@@ -5259,16 +5309,9 @@ Obsolete train certificates may not be bought between companies.
 
 \begin_deeper
 \begin_layout Itemize
-If the preserved train certificate is bought by another company before it
- becomes obsolete, then it loses its preserved status and 
-\begin_inset Quotes eld
-\end_inset
-
-Engineers
-\begin_inset Quotes erd
-\end_inset
-
- card, and will rust in the normal manner.
+If a train certificate marked with the Engineer's card is bought by another
+ company before it becomes obsolete, it loses the Engineer's card and will
+ rust in the normal manner.
 \end_layout
 
 \end_deeper
@@ -5282,14 +5325,14 @@ Obsolete train certificates do not count against the company's train limit
 \begin_layout Standard
 Or (
 \emph on
-6 player games only
+5 and 6 player games only
 \emph default
 ):
 \end_layout
 
 \begin_layout Itemize
-In yellow phase or later may be bought by a public company (must be for
- exactly face value if in yellow phase):
+From yellow phase until the start of blue phase may be bought by a public
+ company (must be for exactly face value if in yellow phase):
 \end_layout
 
 \begin_deeper
@@ -5329,17 +5372,17 @@ Use:
 
 \begin_deeper
 \begin_layout Itemize
-If owned by a player, can be exchanged for a 10% share as the player's action
+If owned by a player, may be exchanged for a 10% share as the player's action
  in a stock round.
 \end_layout
 
 \begin_layout Itemize
-If owned by a player, can be exchanged for a 10% share at any time during
+If owned by a player, may be exchanged for a 10% share at any time during
  an operating round.
 \end_layout
 
 \begin_layout Itemize
-If owned by a public company, can preserve a train during the train-buying
+If owned by a public company, may preserve a train during the train-buying
  step of a company's operation (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -5351,7 +5394,7 @@ reference "par:Train-purchasing"
 \end_layout
 
 \begin_layout Itemize
-Can be bought by a public company and converted to a yellow 
+may be bought by a public company and converted to a yellow 
 \begin_inset Quotes eld
 \end_inset
 
@@ -5375,7 +5418,7 @@ reference "tab:Train-Roster"
 \begin_layout Enumerate
 
 \noun on
-Cie de Bologne - Amiens
+Cie de Boulogne - Amiens
 \end_layout
 
 \begin_deeper
@@ -5418,10 +5461,10 @@ ur-mer/Calais (C18) instead of its entire normal track build and station
  its entire track-build and station marker placement.
  The track tile at Boulogne-sur-mer/Calais (C18) does not have to be part
  of one of the company's routes.
- The cost is 120fr paid to the bank from the company treasury.
+ The cost is 100fr paid to the bank from the company treasury.
  This does not close the 
 \noun on
-Cie de Bologne - Amiens.
+Cie de Boulogne - Amiens.
 \end_layout
 
 \end_deeper
@@ -5779,7 +5822,7 @@ Nevers (H14)
 \begin_layout Plain Layout
 
 \noun on
-Chemin de Fer du Midi
+Chemin de fer du Midi
 \end_layout
 
 \end_inset
@@ -5823,7 +5866,7 @@ Montauban (J9)
 \begin_layout Plain Layout
 
 \noun on
-Chemin de Fer du Nord
+Chemin de fer du Nord
 \end_layout
 
 \end_inset
@@ -5863,7 +5906,7 @@ Lille (C19)
 \begin_layout Plain Layout
 
 \noun on
-Chemins de Fer de l'Ouest
+Chemins de fer de l'Ouest
 \end_layout
 
 \end_inset
@@ -5943,7 +5986,7 @@ Lyon (J16)
 \begin_layout Plain Layout
 
 \noun on
-Chemin de Fer de Paris à Orléans
+Chemin de fer de Paris à Orléans
 \end_layout
 
 \end_inset
@@ -5983,7 +6026,7 @@ Orleans (F13)
 \begin_layout Plain Layout
 
 \noun on
-Chemins de Fer de Provence
+Chemins de fer de Provence
 \end_layout
 
 \end_inset
@@ -6010,7 +6053,7 @@ PRO
 \begin_inset Text
 
 \begin_layout Plain Layout
-Marseilles (N14)
+Marseille (N14)
 \end_layout
 
 \end_inset
@@ -6023,7 +6066,7 @@ Marseilles (N14)
 \begin_layout Plain Layout
 
 \noun on
-Chemin de Fer du Sud - Ouest
+Chemin de fer du Sud - Ouest
 \end_layout
 
 \end_inset
@@ -6125,7 +6168,7 @@ Chemins de fer de l'Est
 \uwave default
 \noun on
 \color inherit
- Chemin de Fer du Midi
+ Chemin de fer du Midi
 \family roman
 \series medium
 \shape up
@@ -6149,7 +6192,7 @@ Chemins de fer de l'Est
 \uwave default
 \noun on
 \color inherit
-Chemins de Fer de l'Ouest
+Chemins de fer de l'Ouest
 \family roman
 \series medium
 \shape up
@@ -6173,7 +6216,7 @@ Chemins de Fer de l'Ouest
 \uwave default
 \noun on
 \color inherit
-Chemins de Fer de Provence
+Chemins de fer de Provence
 \family roman
 \series medium
 \shape up
@@ -6197,7 +6240,7 @@ Chemins de Fer de Provence
 \uwave default
 \noun on
 \color inherit
-Chemin de Fer du Sud - Ouest
+Chemin de fer du Sud - Ouest
 \family roman
 \series medium
 \shape up
@@ -6222,9 +6265,9 @@ reference "par:Special-track-placement"
 \end_layout
 
 \begin_layout Itemize
-In brown phase the 
+In brown phase or later the 
 \noun on
-Chemin de Fer du Midi
+Chemin de fer du Midi
 \family roman
 \series medium
 \shape up
@@ -6248,7 +6291,7 @@ Chemin de Fer du Midi
 \uwave default
 \noun on
 \color inherit
-Chemins de Fer de Provence
+Chemins de fer de Provence
 \family roman
 \series medium
 \shape up
@@ -6272,12 +6315,12 @@ Chemins de Fer de Provence
 \uwave default
 \noun on
 \color inherit
-Chemin de Fer du Sud - Ouest
+Chemin de fer du Sud - Ouest
 \noun default
  may place or upgrade any port location (Boulogne-sur-mer/Calais (C18),
- Bordeaux (H7), Brest (A6), Le Havre (C14), Marseilles (N15) and Toulouse
- (K8)) directly to a brown track tile in the normal way as if there were
- already a green track tile there 
+ Bordeaux (H7), Brest (A6), Le Havre (C14), Marseille (N15) and Toulouse
+ (K8)) directly to a brown track tile, paying any terrain costs in the normal
+ way 
 \family roman
 \series medium
 \shape up
@@ -6405,8 +6448,8 @@ City Same as a normal city track tile, but marked with a city name and are
 
 \begin_deeper
 \begin_layout Description
-Paris Has two cities in yellow (Paris, and Montparnasse) and three cities
- in green and brown (North Paris, South Paris and Montparnasse)
+Paris Has two cities on the yellow map hexagon (Paris and Montparnasse)
+ and three cities in green and brown (North Paris, South Paris and Montparnasse)
 \end_layout
 
 \end_deeper
@@ -6424,7 +6467,7 @@ OO
 \end_inset
 
  but are otherwise the same as a normal city track tile.
- OO city tiles may only be placed on hexagons marked 
+ OO city tiles can only be placed on hexagons marked 
 \begin_inset Quotes eld
 \end_inset
 
@@ -6456,7 +6499,7 @@ town Have two distinct track lines, each of which has a small cross-bar
 
 \end_deeper
 \begin_layout Description
-Plain Have one to four lines of track without towns or cities which directly
+Plain Have one to four lines of track without towns or cities, which directly
  connect pairs of edges of the hexagon.
 \end_layout
 
@@ -6521,7 +6564,7 @@ reference "sub:Emergency-train-buying"
 
 \begin_layout Itemize
 Trains are bought as certificates and the number of train certificates and
- trains a company may own is controlled by the train limit (see 
+ trains a company can own is controlled by the train limit (see 
 \begin_inset CommandInset ref
 LatexCommand formatted
 reference "sub:Train-Limit"
@@ -6679,6 +6722,14 @@ N
  stops along a route of any length.
 \end_layout
 
+\begin_layout Description
+Electric/TGV
+\begin_inset space ~
+\end_inset
+
+trains Run any number of stops along a route of any length.
+\end_layout
+
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
 Note: A 
@@ -6731,7 +6782,7 @@ A yellow
 \begin_inset Quotes erd
 \end_inset
 
- train certificate can be run as two 
+ train certificate may be run as two 
 \begin_inset Quotes eld
 \end_inset
 
@@ -7634,6 +7685,176 @@ name "tab:Gray-Train-Roster"
 \end_layout
 
 \begin_layout Section
+Stock Market
+\end_layout
+
+\begin_layout Itemize
+The stock market consists of six regions:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+A brown section in the lower left corner.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Multiple stock certificates of companies with stock price markers are in
+ the brown section may be bought in a single stock round action (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Buying-shares"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Players may own more than 60% of companies with stock price markers in the
+ brown section (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Buying-shares"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Stock certificates of companies with stock price markers in the brown section
+ do not count against certificate limit (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Certificate-limit"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+An orange section beside the brown section in the lower left corner:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Players may own more than 60% of companies with stock price markers in the
+ orange section (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Buying-shares"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Stock certificates of companies with stock price markers in the orange section
+ do not count against certificate limit (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Certificate-limit"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A yellow section beside the orange section in the lower left corner:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Stock certificates of companies with stock price markers in the yellow section
+ do not count against certificate limit (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Certificate-limit"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A large body of white stock price boxes differentiated only by value and
+ with no special rules.
+\end_layout
+
+\begin_layout Enumerate
+A diagonal line of yellow, green, blue and brown boxes with red outlines
+ that mark possible par prices for newly floated companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Starting-or-floating"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-Phases"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+A stock price of 500fr with a blue background.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The game ends if a stock price marker reaches 500fr (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-end"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Public companies have a stock price which is tracked on the stock market
+ with a stock price marker.
+\end_layout
+
+\begin_layout Itemize
+When a public company is parred, its stock price marker is placed on the
+ matching location on the stock market (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Starting-or-floating"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Company stock price markers move in well defined ways (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Stock-price-movement"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Section
 Game Phases 
 \begin_inset CommandInset label
 LatexCommand label
@@ -7671,7 +7892,7 @@ Train limit is no more than 4 trains in no more then 4 train certificates.
 \begin_layout Itemize
 The 
 \noun on
-Cie de Val de Loire
+Cie du Val de Loire
 \noun default
  may be exchanged for any available 10% share.
 \end_layout
@@ -7679,7 +7900,7 @@ Cie de Val de Loire
 \begin_layout Itemize
 In 6-player games, the 
 \noun on
-Cie de Val de Loire
+Cie du Val de Loire
 \noun default
  may be bought by a company for face value.
 \end_layout
@@ -7725,7 +7946,7 @@ Blue phase
 \end_layout
 
 \begin_layout Itemize
-Green phase starts with the purchase of the first blue train.
+Blue phase starts with the purchase of the first blue train.
 \end_layout
 
 \begin_layout Itemize
@@ -7757,7 +7978,7 @@ Brown phase
 \end_layout
 
 \begin_layout Itemize
-Green phase starts with the purchase of the first brown train.
+Brown phase starts with the purchase of the first brown train.
 \end_layout
 
 \begin_layout Itemize
@@ -7789,7 +8010,7 @@ Red phase
 \end_layout
 
 \begin_layout Itemize
-Green phase starts with the purchase of the first red train.
+Red phase starts with the purchase of the first red train.
 \end_layout
 
 \begin_layout Itemize
@@ -7817,7 +8038,7 @@ Gray phase
 \end_layout
 
 \begin_layout Itemize
-Green phase starts with the purchase of the first gray train.
+Gray phase starts with the purchase of the first gray train.
 \end_layout
 
 \begin_layout Itemize
