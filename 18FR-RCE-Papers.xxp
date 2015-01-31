@@ -1,0 +1,536 @@
+[DEFAULT]
+  BLACK = 0, 0, 0
+  BLACK_DARK = 0.184, 0.310, 0.310
+  GRAY = 0.663, 0.663, 0.663
+  WHITE = 1, 1, 1
+  YELLOW = 1.0, 1.0, 0.0
+  GREEN = 0.5, 1.0, 0
+  BROWN = 0.922, 0.780, 0.620
+  RED = 1.0, 0.0, 0.0
+  BLUE = 0, 1, 1
+  ORANGE = 1.000, 0.647, 0.000
+  LIGHT_BLUE = 0.392, 0.584, 0.929
+  LIGHT_GREEN = 0.67, 1.0, 0.67
+
+  EST_DARK = 1, 0, 0
+  EST_LIGHT = 0.941, 0.502, 0.502
+  ETA_DARK = ${BLACK}
+  ETA_LIGHT = ${GRAY}
+  MID_DARK = 0, 0.67, 1
+  MID_LIGHT = 0, 1, 1
+  NOR_DARK = 0.129, 0.369, 0.129
+  NOR_LIGHT = 0.565, 0.933, 0.565
+  OU_DARK = 1, 1, 0
+  OU_LIGHT = 1.000, 0.843, 0.000
+  PLM_DARK = 0.000, 0.000, 0.804
+  PLM_LIGHT = 0.392, 0.584, 0.929
+  PO_DARK = 0.804, 0.522, 0.247
+  PO_LIGHT = 0.871, 0.722, 0.529
+  PRO_DARK = 0.604, 0.804, 0.196
+  PRO_LIGHT = 0.686, 0.933, 0.933
+  SO_DARK = 0.600, 0.196, 0.800
+  SO_LIGHT = 0.933, 0.510, 0.933
+
+
+  EST_NAME = """Chemins de
+fer de l'Est"""
+  ETA_NAME = """Administration des
+chemins de fer
+de l'Etat"""
+  MID_NAME = """Chemin de fer
+du Midi"""
+  NOR_NAME = """Chemin de fer
+du Nord"""
+  OU_NAME = """Chemins de fer
+de l'Ouest"""
+  PLM_NAME ="""Chemins de fer de
+Paris a Lyon et a la
+Mediterranee"""
+  PO_NAME = """Chemin de fer de
+Paris a Orleans"""
+  PRO_NAME = """Chemins de fer
+de Provence"""
+  SO_NAME = """Chemin de fer du
+Sud - Ouest"""
+
+  PRESIDENT_STRIPE = ${ORANGE}
+  PRIVATE_BACKGROUND =  ${LIGHT_GREEN}
+  SAVED_DARK = 0.804, 0.804, 0.804
+  SAVED_LIGHT = 0.686, 0.933, 0.933
+  ROUND_DARK = ${RED}
+  ROUND_LIGHT = 0.392, 0.584, 0.929
+  BLOCK_DARK = 1, 1, 1
+  BLOCK_LIGHT = 1, 1, 1
+  PORT_LIGHT = ${BLUE}
+  PORT_DARK = 0.498, 1.000, 0.831
+
+[charter]
+  desc1 = "Assets, Treasury & Trains"
+  note1 = """Purchase price of shares goes to bank.
+Market shares pay dividends to treasury.
+Station cost: Free/40fr/100fr/..."""
+  token_count = 4
+
+  [[sheet1]]
+
+    [[[tile_1.1]]]
+      DARK = ${PLM_DARK}
+      LIGHT = ${PLM_LIGHT}
+      title = ${PLM_NAME}
+      token_name = PLM
+      token_count = 3
+
+    [[[tile_1.2]]]
+      LIGHT = ${PO_LIGHT}
+      DARK = ${PO_DARK}
+      title = ${PO_NAME}
+      token_name = PO
+
+    [[[tile_2.1]]]
+      DARK = ${SO_DARK}
+      LIGHT = ${SO_LIGHT}
+      title = ${SO_NAME}
+      token_name = SO
+      token_count = 3
+
+    [[[tile_2.2]]]
+      LIGHT = ${ETA_LIGHT}
+      DARK = ${ETA_DARK}
+      title = ${ETA_NAME}
+      token_name = ETA
+
+  [[sheet2]]
+
+    [[[tile_1.1]]]
+      LIGHT = ${EST_LIGHT}
+      DARK = ${EST_DARK}
+      title = ${EST_NAME}
+      token_name = EST
+      token_count = 3
+
+    [[[tile_1.2]]]
+      DARK = ${OU_DARK}
+      LIGHT = ${OU_LIGHT}
+      title = ${OU_NAME}
+      token_name = OU
+      token_count = 2
+
+    [[[tile_2.1]]]
+      LIGHT = ${PRO_LIGHT}
+      DARK = ${PRO_DARK}
+      title = ${PRO_NAME}
+      token_name = PRO
+      token_count = 2
+
+    [[[tile_2.2]]]
+      LIGHT = ${NOR_LIGHT}
+      DARK = ${NOR_DARK}
+      title = ${NOR_NAME}
+      token_name = NOR
+      token_count = 3
+
+  [[sheet3]]
+
+    [[[tile_1.1]]]
+      LIGHT = ${MID_LIGHT}
+      DARK = ${MID_DARK}
+      title = ${MID_NAME}
+      token_name = MID
+      token_count = 3
+
+[private]
+  frame_colour = ${PRIVATE_BACKGROUND}
+
+  [[Sheet1]]
+
+    [[[tile_1.1]]]
+      cost = Cost: 15fr
+      revenue = Revenue: 0fr
+      title = Compagnie de Toulouse a Barcelone
+      desc = """Blocks: Toulouse (K8)
+Owning public company may place
+additional yellow track tile
+as part of its normal track
+build for 20fr."""
+      close = "Close: In brown phase or when power used."
+
+    [[[tile_1.2]]]
+      cost = Cost: 20fr
+      revenue = Revenue: 5fr
+      title = Cie de la Ceinture
+      desc = Blocks: E18 & F17.
+      close = "Close: In brown phase."
+
+    [[[tile_1.3]]]
+      cost = Cost: 40fr
+      revenue = Revenue: 10fr
+      title = Cie de Paris - Saint-Germain
+      desc = """Blocks: E14.
+Owning public company may place a
+yellow track tile at E14 in addition
+to its normal track build if one has
+not already been placed there."""
+      close = "Close: In brown phase."
+
+    [[[tile_2.1]]]
+      cost = Cost: 60fr
+      revenue = Revenue: 15fr
+      title = Cie du Havre
+      desc = """Blocks: C14.
+Owning public company may place a
+yellow track tile & station marker
+(must be both) in Le Havre (C14) as
+its entire track build & station
+marker placement at a cost of 80fr."""
+      close = "Close: In brown phase."
+
+    [[[tile_2.2]]]
+      cost = Cost: 110fr
+      revenue = Revenue: 20fr
+      title = Cie du Val de Loire
+      desc = """Blocks: G14.
+May be exchanged for a 10% share of any
+company.  Owning company may mark a train
+so that it will run once more after it rusts.
+5/6 player: May be sold for exactly face
+value & become a single yellow 2-train."""
+      close = "Close: In brown phase or when power used."
+
+    [[[tile_2.3]]]
+      cost = Cost: 150fr
+      revenue = Revenue: 25fr
+      title = Cie de Boulogne - Amiens
+      desc = """Blocks: Boulogne-sur-mer/Calais (C18).
+Comes with a 10% share of the ETA.
+May place track and a station
+marker in C18 for 100fr."""
+      close = "Close: In brown phase."
+
+    [[[tile_3.1]]]
+      cost = Cost: 210fr
+      revenue = Revenue: 30fr
+      title = Cie de Lyon - Mediterranee
+      desc = """Comes with the 20% director's
+certificate of the PLM.  PLM must
+be parred in a yellow or green par.
+May not be bought by a company."""
+      close = "Close: In brown phase or when PLM purchases a train."
+
+
+[share]
+  token_count = 1
+  size = 10%
+  note = ""
+  desc = "1 Share"
+  type_colour = transparent
+
+  [[PLM]]
+    DARK = ${PLM_DARK}
+    LIGHT = ${PLM_LIGHT}
+    title = ${PLM_NAME}
+    token_name = PLM
+
+    [[[tile_1.1]]]
+      size = 20%
+      desc = 2 Shares
+      note = Director
+      token_count = 2
+      type_colour = ${PRESIDENT_STRIPE}
+
+  [[PO]]
+    LIGHT = ${PO_LIGHT}
+    DARK = ${PO_DARK}
+    title = ${PO_NAME}
+    token_name = PO
+
+    [[[tile_1.1]]]
+      size = 20%
+      desc = 2 Shares
+      note = Director
+      token_count = 2
+      type_colour = ${PRESIDENT_STRIPE}
+
+  [[SO]]
+    DARK = ${SO_DARK}
+    LIGHT = ${SO_LIGHT}
+    title = ${SO_NAME}
+    token_name = SO
+
+    [[[tile_1.1]]]
+      size = 20%
+      desc = 2 Shares
+      note = Director
+      token_count = 2
+      type_colour = ${PRESIDENT_STRIPE}
+
+  [[ETA]]
+    LIGHT = ${ETA_LIGHT}
+    DARK = ${ETA_DARK}
+    title = ${ETA_NAME}
+    token_name = ETA
+
+    [[[tile_1.1]]]
+      size = 20%
+      desc = 2 Shares
+      note = Director
+      token_count = 2
+      type_colour = ${PRESIDENT_STRIPE}
+
+  [[EST]]
+    LIGHT = ${EST_LIGHT}
+    DARK = ${EST_DARK}
+    title = ${EST_NAME}
+    token_name = EST
+
+    [[[tile_1.1]]]
+      size = 20%
+      desc = 2 Shares
+      note = Director
+      token_count = 2
+      type_colour = ${PRESIDENT_STRIPE}
+
+  [[OU]]
+    DARK = ${OU_DARK}
+    LIGHT = ${OU_LIGHT}
+    title = ${OU_NAME}
+    token_name = OU
+
+    [[[tile_1.1]]]
+      size = 20%
+      desc = 2 Shares
+      note = Director
+      token_count = 2
+      type_colour = ${PRESIDENT_STRIPE}
+
+  [[PRO]]
+    LIGHT = ${PRO_LIGHT}
+    DARK = ${PRO_DARK}
+    title = ${PRO_NAME}
+    token_name = PRO
+    token_count = 2
+
+    [[[tile_1.1]]]
+      size = 20%
+      desc = 2 Shares
+      note = Director
+      token_count = 2
+      type_colour = ${PRESIDENT_STRIPE}
+
+  [[NOR]]
+    LIGHT = ${NOR_LIGHT}
+    DARK = ${NOR_DARK}
+    title = ${NOR_NAME}
+    token_name = NOR
+
+    [[[tile_1.1]]]
+      size = 20%
+      desc = 2 Shares
+      note = Director
+      token_count = 2
+      type_colour = ${PRESIDENT_STRIPE}
+
+  [[MID]]
+    LIGHT = ${MID_LIGHT}
+    DARK = ${MID_DARK}
+    title = ${MID_NAME}
+    token_name = MID
+
+    [[[tile_1.1]]]
+      size = 20%
+      desc = 2 Shares
+      note = Director
+      token_count = 2
+      type_colour = ${PRESIDENT_STRIPE}
+
+[token]
+
+  [[sheet1]]
+
+    [[[tile_1.1]]]
+      DARK = ${PLM_DARK}
+      LIGHT = ${PLM_LIGHT}
+      token_name = PLM
+
+    [[[tile_1.2]]]
+      LIGHT = ${PO_LIGHT}
+      DARK = ${PO_DARK}
+      token_name = PO
+
+    [[[tile_1.3]]]
+      DARK = ${SO_DARK}
+      LIGHT = ${SO_LIGHT}
+      token_name = SO
+
+    [[[tile_1.4]]]
+      LIGHT = ${ETA_LIGHT}
+      DARK = ${ETA_DARK}
+      token_name = ETA
+
+    [[[tile_1.5]]]
+      LIGHT = ${EST_LIGHT}
+      DARK = ${EST_DARK}
+      token_name = EST
+
+    [[[tile_1.6]]]
+      DARK = ${OU_DARK}
+      LIGHT = ${OU_LIGHT}
+      token_name = OU
+
+    [[[tile_1.7]]]
+      LIGHT = ${PRO_LIGHT}
+      DARK = ${PRO_DARK}
+      token_name = PRO
+
+    [[[tile_1.8]]]
+      LIGHT = ${NOR_LIGHT}
+      DARK = ${NOR_DARK}
+      token_name = NOR
+
+    [[[tile_1.9]]]
+      LIGHT = ${MID_LIGHT}
+      DARK = ${MID_DARK}
+      token_name = MID
+
+    [[[tile_1.10]]]
+      LIGHT = ${SAVED_LIGHT}
+      DARK = ${SAVED_DARK}
+      token_name = SAVED
+      token_bottom_colour = ${BLACK}
+
+    [[[tile_1.11]]]
+      LIGHT = ${ROUND_LIGHT}
+      DARK = ${ROUND_DARK}
+      token_name = ROUND
+      token_bottom_colour = ${LIGHT}
+
+    [[[tile_1.12]]]
+      LIGHT = ${BLOCK_LIGHT}
+      DARK = ${BLOCK_DARK}
+      token_colour = ${RED}
+      token_name = BLOCK
+
+    [[[tile_1.13]]]
+      LIGHT = ${PORT_LIGHT}
+      DARK = ${PORT_DARK}
+      token_colour = ${BLACK}
+      token_name_colour = ${WHITE}
+      token_name = PORT
+      token_bottom_colour = ${LIGHT}
+
+[train]
+  trade = ""
+  train_font = "Times-Roman", 36
+
+  [[yellow1]]
+    train = 2+1
+    frame_colour = ${YELLOW}
+    cost = Cost: 125fr
+    rust = Rusted by: BLUE
+    trade_stripe_colour = ${GREEN}
+    rust_stripe_colour = ${BLUE}
+
+  [[yellow2]]
+    train = """2x2
+-
+3/4"""
+    frame_colour = ${YELLOW}
+    cost = Cost: 200fr
+    rust = Rusted by: BLUE
+    trade_stripe_colour = ${GREEN}
+    rust_stripe_colour = ${BLUE}
+    train_line_height = 24
+
+  [[green1]]
+    frame_colour = ${GREEN}
+    train = 4+1
+    cost = Cost: 300fr
+    rust = Rusted by: BROWN
+    trade_stripe_colour = ${BLUE}
+    rust_stripe_colour = ${BROWN}
+
+  [[green2]]
+    frame_colour = ${GREEN}
+    train = 3/5x2
+    cost = Cost: 500fr
+    rust = Rusted by: BROWN
+    trade_stripe_colour = ${BLUE}
+    rust_stripe_colour = ${BROWN}
+
+  [[blue1]]
+    frame_colour = ${BLUE}
+    train = 5+2
+    cost = Cost: 350fr
+    rust = Rusted by: RED
+    trade_stripe_colour = ${BROWN}
+    rust_stripe_colour = ${RED}
+
+  [[blue2]]
+    frame_colour = ${BLUE}
+    train = 4/6x2
+    cost = Cost: 600fr
+    rust = Rusted by: RED
+    trade_stripe_colour = ${BROWN}
+    rust_stripe_colour = ${RED}
+
+  [[brown1]]
+    frame_colour = ${BROWN}
+    train = 6E
+    cost = Cost: 400fr
+    rust = Rusted by: GRAY
+    trade_stripe_colour = ${RED}
+    rust_stripe_colour = ${GRAY}
+
+  [[brown2]]
+    frame_colour = ${BROWN}
+    train = 4/6x2
+    cost = Cost: 700fr
+    rust = Rusted by: GRAY
+    trade_stripe_colour = ${RED}
+    rust_stripe_colour = ${GRAY}
+
+  [[red]]
+    frame_colour = ${RED}
+    train = 8E
+    cost = Cost: 500fr
+    rust = Rusted by: GRAY
+    trade_stripe_colour = ${GRAY}
+    rust_stripe_colour = ${GRAY}
+
+  [[gray]]
+    frame_colour = ${GRAY}
+    train = TGV
+    cost = Cost: 900fr
+    rust = PERMANENT
+    trade_stripe_colour = ${BLACK}
+    rust_stripe_colour = ${BLACK}
+    trade_colour = ${WHITE}
+    rust_colour = ${WHITE}
+
+  [[player]]
+    frame_colour = ${RED}
+    train = ""
+    cost = ""
+    rust = ""
+    trade_stripe_colour = ${BLUE}
+    rust_stripe_colour = ${GREEN}
+    train_rust_colour = ${WHITE}
+    rust_colour = ${WHITE}
+    train_font = "Times-Roman", 72
+
+    [[[tile_1.1]]]
+      train = "1"
+
+    [[[tile_1.2]]]
+      train = "2"
+
+    [[[tile_1.3]]]
+      train = "3"
+
+    [[[tile_2.1]]]
+      train = "4"
+
+    [[[tile_2.2]]]
+      train = "5"
+
+    [[[tile_2.3]]]
+      train = "6"

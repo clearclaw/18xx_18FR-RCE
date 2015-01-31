@@ -1,0 +1,8081 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman palatino
+\font_sans berasans
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc true
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 3cm
+\rightmargin 2cm
+\bottommargin 3cm
+\footskip 3cm
+\columnsep 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 2
+\papersides 2
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+1843
+\begin_inset Newline newline
+\end_inset
+
+ English Rules
+\end_layout
+
+\begin_layout Author
+Game design: J C Lawrence
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename monet-the-gare-saint-lazare-arrival-of-train.jpeg
+	width 6in
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Overview
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Overview"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Introduction"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Waffly thematic/historical text goes here.
+\end_layout
+
+\begin_layout Section
+Components
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Components"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+1 set of game rules (this document)
+\end_layout
+
+\begin_layout Itemize
+1 game map
+\end_layout
+
+\begin_layout Itemize
+1 IPO chart
+\end_layout
+
+\begin_layout Itemize
+1 round marker
+\end_layout
+
+\begin_layout Itemize
+Many track tiles (yellow, green, brown and gray)
+\end_layout
+
+\begin_layout Itemize
+50 train certificates:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+6 yellow trains (double-sided)
+\end_layout
+
+\begin_layout Itemize
+7 green trains (double-sided)
+\end_layout
+
+\begin_layout Itemize
+7 blue trains (double-sided)
+\end_layout
+
+\begin_layout Itemize
+6 brown trains (double-sided)
+\end_layout
+
+\begin_layout Itemize
+6 red trains
+\end_layout
+
+\begin_layout Itemize
+18 gray trains
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+1 
+\begin_inset Quotes erd
+\end_inset
+
+engineers
+\begin_inset Quotes erd
+\end_inset
+
+ card
+\end_layout
+
+\begin_layout Itemize
+7 private companies 
+\end_layout
+
+\begin_layout Itemize
+6 player cards numbered 1 through 6
+\end_layout
+
+\begin_layout Itemize
+For each of 9 public companies:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+9 share certificates (one 20% director's certificate and eight 10% certificates)
+\end_layout
+
+\begin_layout Itemize
+2 to 4 station markers (number varies by company)
+\end_layout
+
+\begin_layout Itemize
+company charter
+\end_layout
+
+\begin_layout Itemize
+par price marker 
+\end_layout
+
+\begin_layout Itemize
+stock price marker
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+9 
+\begin_inset Quotes eld
+\end_inset
+
+blocked
+\begin_inset Quotes erd
+\end_inset
+
+ station markers
+\end_layout
+
+\begin_layout Itemize
+~
+\lang british
+80
+\lang english
+,000fr in money
+\end_layout
+
+\begin_layout Section
+Etiquette
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Etiquette"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+The holdings of players and companies is public information and should be
+ clearly displayed and viewable by all players at all times.
+ 
+\end_layout
+
+\begin_layout Itemize
+To help the game progress smoothly, each player should consider their upcoming
+ choices while the other players are taking their turns.
+\end_layout
+
+\begin_layout Itemize
+Use of paper, pencils/pens and calculators is recommended to assist players
+ in making timely and accurate decisions.
+ 
+\end_layout
+
+\begin_layout Itemize
+Use of poker chips or computerised tools for the money handling (e.g.
+ spreadsheets) are recommended as a way to speed play.
+\end_layout
+
+\begin_layout Itemize
+Before starting play, the players should agree on what degree of negotiation
+ will be allowed in the game and to what extent agreements will be binding.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Rules
+\begin_inset CommandInset label
+LatexCommand label
+name "part:Rules"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Setup
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Game-Setup"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Place the map and IPO chart where they can be easily seen and accessed by
+ all players.
+\end_layout
+
+\begin_layout Itemize
+Sort the track tiles by type and 
+\lang british
+colour
+\lang english
+ and arrange them for easy review and access.
+\end_layout
+
+\begin_layout Itemize
+Arrange the company certificates and various company markers on the IPO
+ chart.
+\end_layout
+
+\begin_layout Itemize
+Place the trains in their places on the map.
+\end_layout
+
+\begin_layout Itemize
+Put the round marker on the 
+\begin_inset Quotes eld
+\end_inset
+
+Stock Round
+\begin_inset Quotes erd
+\end_inset
+
+ circle of the round track.
+\end_layout
+
+\begin_layout Itemize
+Place the six port tokens on the anchor symbols beside the ports on the
+ map (
+\lang british
+Boulogne-sur-mer
+\lang english
+/Calais (C18), Bordeaux (H7), Brest (A6), Le Havre (C14), Marseille (N15)
+ and Toulouse (K8)).
+ 
+\end_layout
+
+\begin_layout Itemize
+Place the seven private company cards in a line in numerical order across
+ the centre of the map.
+ 
+\end_layout
+
+\begin_layout Itemize
+Give each player starting capital according to the number of players (see
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Starting-Player-Capital"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Discard the player number cards with numbers larger than the player count.
+\end_layout
+
+\begin_layout Itemize
+Shuffle the remaining numbered player cards and randomly assign one to each
+ player.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Players
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Capital
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Certificate Limit
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1,200fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+36
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+800fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+600fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+480fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+400fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Starting Player Capital
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Starting-Player-Capital"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Overview
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:game-overview"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+1843 commences with the auction of the seven private companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Private-Auction"
+
+\end_inset
+
+)
+\noun on
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+After auctioning the private companies, the game consists of an alternating
+ series of stock rounds interspersed by sets of one to four operating rounds
+\noun on
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The round marker is used to track of the game's progress through the rounds.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+In stock rounds, players may buy and sell shares of companies, taking and
+ losing control of companies, and starting new companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Stock-Rounds"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+At the end of each stock round the player order for the next stock round
+ is determined by each player's remaining cash in descending order (ties
+ retain the prior relative order - see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Stock-Round-General"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+In operating rounds
+\noun on
+,
+\noun default
+ companies operate: buying private companies from players, building track
+ and stations, claiming or buying port markers, running and buying trains,
+ and withholding or paying dividends to shareholders (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Operating-Rounds"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Companies act in operating rounds in descending order of their stock prices
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Company-operating-order"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The number of operating rounds (a 
+\begin_inset Quotes eld
+\end_inset
+
+set
+\begin_inset Quotes erd
+\end_inset
+
+) after a stock round
+\noun on
+ 
+\noun default
+is determined by the current game phase at the end of the stock round (see
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+)
+\noun on
+.
+\end_layout
+
+\begin_layout Itemize
+At the end of each set of operating rounds, before the next stock round,
+ the next available train from the supply is discarded from the game (
+\emph on
+bought by the foreigners)
+\emph default
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If the train bought by the foreigners is the last train of its colour in
+ the supply, then the first train of the next colour is discarded/bought
+ by the foreigners as well.
+\end_layout
+
+\begin_layout Itemize
+This may result in a phase change (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-Phases"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The game starts in
+\noun on
+ 
+\noun default
+yellow phase with the yellow trains (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-Phases"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Game phases are tied to their matching train colours (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-Phases"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Game phases change immediately when the first train of a new colour is bought
+ by a company or the foreigners.
+ New par prices, track tile types and other changes accompany some game
+ phase changes (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-Phases"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The rotating sequence of stock rounds
+\noun on
+ 
+\noun default
+and sets of operating rounds
+\noun on
+ 
+\noun default
+continues until the end of the game (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-end"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout LyX-Code
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Description
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="5">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="middle" width="0.6in">
+<column alignment="center" valignment="middle" width="0.4in">
+<column alignment="center" valignment="middle" width="0.5in">
+<column alignment="center" valignment="middle" width="0.5in">
+<column alignment="center" valignment="middle" width="0.5in">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Phase / Trains
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+# ORs
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Train Limit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Track Tiles
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Par Prices
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yellow
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4/4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yellow
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yellow
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Green
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4/4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Green and below
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Green and below
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Blue
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3/3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Green and below
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Blue and below
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Brown
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3/2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Brown and below
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Brown and below
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Red
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2/2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Brown and below
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Brown and below
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gray
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2/2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gray and below
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Brown and below
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Game Phases
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Game-Phases"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Private Auction 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Private-Auction"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Private auction process
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Private-auction-process"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The auction starts with the player with the #1 player card and proceeds
+ in player card order with the #1 player next in rotation after the player
+ with the largest player card number.
+ 
+\end_layout
+
+\begin_layout Itemize
+Each player in turn must do one of: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Buy and take the cheapest un-bought private company for face value (or its
+ current price if reduced).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This may cause the bids for other private companies
+\noun on
+ 
+\noun default
+to resolve (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Private-auction-resolution"
+
+\end_inset
+
+):
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Bid on any other remaining private company
+\noun on
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The minimum bid is 5fr more than the face value of the private company
+\noun on
+,
+\noun default
+ or any multiple of 5fr more than the largest bid currently on that private
+ company, whichever is the larger.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pass.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Passing does not limit a player's future actions in the private auction.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Private auction resolution
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Private-auction-resolution"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If a player buys the cheapest available private company, the next higher
+ private company
+\noun on
+ 
+\noun default
+is checked for bids:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If it has exactly one bid, that bidder takes the private company for the
+ cost of their bid.
+ 
+\end_layout
+
+\begin_layout Itemize
+If it has more then one bid, those players auction the private company among
+ themselves:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each player, in rotating order of increasing bids and starting with the
+ player with the lowest bid, raises their bid on the private company to
+ a multiple of 5fr more than the current highest bid on the private company
+ or passes and drops out of the auction for that private company.
+\end_layout
+
+\begin_layout Itemize
+When only one bidder remains, that player takes the private company for
+ the cost of their bid and losing/passing bidders recover their bids.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+This process repeats if the next higher private company has one or more
+ bids, until either: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A private company with no bids is reached.
+\end_layout
+
+\begin_layout Standard
+Or:
+\end_layout
+
+\begin_layout Itemize
+All the private companies have been bought.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The next player in player card order from the last player that bought a
+ private company for face or reduced value has the next turn.
+\end_layout
+
+\begin_layout Itemize
+If all players pass while one or more private companies remain un-bought
+ then there is a brief
+\noun on
+ 
+\noun default
+operating round: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Purchased private companies
+\noun on
+ 
+\noun default
+pay their revenue to their owning players.
+\end_layout
+
+\begin_layout Itemize
+A yellow train is discarded from the supply.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If all 6 yellow trains are discarded from the game during the private company
+ auction, the game immediately ends (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-end"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The cost of the lowest un-bought private company is reduced by 5fr.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If the cost of the lowest private company is reduced to zero (0fr) then
+ the next player must “buy” it at no cost.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+The next player in player card rotation from the last player that bought
+ a private company for face or reduced value has the next turn in the private
+ auction, or if all private companies have been bought, then the first action
+ in the stock round (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Stock-Rounds"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Private auction notes
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Private-auction-notes"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Bids are allocated from the player's money.
+ 
+\end_layout
+
+\begin_layout Itemize
+Players are limited in their bids to their cash on hand at the time of bidding.
+\end_layout
+
+\begin_layout Itemize
+Winning bids and purchase costs are paid to the bank.
+\end_layout
+
+\begin_layout Itemize
+When the 
+\noun on
+Cie de Lyon - Méditerranée
+\noun default
+ private company is purchased, its owner must immediately set the par value
+ of the 
+\noun on
+Chemins de fer de Paris à Lyon et à la Méditerranée
+\noun default
+ to a yellow or green par value
+\noun on
+.
+\end_layout
+
+\begin_layout Section
+Stock Rounds
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Stock-Rounds"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+General
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Stock-Round-General"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Stock rounds start with the player with the #1 player card and proceed in
+ player card order with the #1 player next in rotation after the player
+ with the largest player card number.
+ 
+\end_layout
+
+\begin_layout Itemize
+On their turn a player may pass or do any or all of the following in the
+ following order:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Sell some number of shares of one or more public companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Selling-shares"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Buy a single certificate (a single 10% or 20% director's certificate if
+ available) from either the bank pool or IPO chart (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Buying-shares"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Sell some number of shares of one or more public companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Selling-shares"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Player purchases are limited to their available cash.
+\end_layout
+
+\begin_layout Itemize
+If a player passes, they may act in the stock round on their next or a later
+ turn.
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Exception: The stock round ends immediately when all players pass in sequence.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The player order for the next stock round is set at the end of the stock
+ round using the numbered player cards in descending order of player cash.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tied players retain their prior relative order.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The number of operating rounds in the 
+\begin_inset Quotes eld
+\end_inset
+
+set
+\begin_inset Quotes erd
+\end_inset
+
+ following the stock round is controlled by the current game phase (see
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:game-overview"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Operating-Rounds"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Selling shares
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Selling-shares"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Players cannot sell shares in the the first stock round following the private
+ auction.
+\end_layout
+
+\begin_layout Itemize
+Players cannot sell shares of a company that does not have a par price (e.g.
+ the 10% share of the 
+\noun on
+Administration des chemins de fer de l'État
+\noun default
+ (ETA) that comes with the 
+\noun on
+Cie de Boulogne - Amiens
+\noun default
+ private company before the director's certificate has be bought and the
+ company parred -- see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Starting-or-floating"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Shares are sold for the current stock market price per share.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Sold certificates are placed in the bank pool.
+\end_layout
+
+\begin_layout Itemize
+No more than 50% of a company (five 10% certificates) can be in the bank
+ pool at any time.
+\end_layout
+
+\begin_layout Itemize
+The player receives the value of the share(s) from the bank at the time
+ they are sold.
+\end_layout
+
+\begin_layout Itemize
+The stock price is adjusted appropriately (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Stock-price-movement"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Buying shares
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Buying-shares"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Only one stock certificate can be bought per player-turn or action in the
+ stock round.
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Exception: Players may buy multiple certificates, up to as many as they
+ can afford, from the bank pool or IPO or both, of a company whose stock
+ price marker is in the brown section of the stock market in a single action.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The first available certificate of a company is always the director's certificat
+e (2 shares, 20%, one certificate - see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Starting-or-floating"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Company-directors"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Players can buy 10% certificates of companies only if they have been parred
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Starting-or-floating"
+
+\end_inset
+
+):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+From the IPO chart for the par price.
+\end_layout
+
+\begin_layout Itemize
+From the bank pool for the current stock price.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A player cannot buy a certificate of a company if they have sold one or
+ more shares of that company in this stock round.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+They may buy certificates of that company in future stock rounds.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The purchase price for certificates is paid to the bank.
+\end_layout
+
+\begin_layout Itemize
+A player cannot own more than 60% of a company (20% director's certificate
+ and four 10% certificates).
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Exception: Players can own more than 60% of a company whose stock price
+ marker is in the orange or brown section of the stock market.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+\begin_inset Quotes eld
+\end_inset
+
+Starting
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+floating
+\begin_inset Quotes erd
+\end_inset
+
+ a new company
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Starting-or-floating"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The first available certificate of a company is always the director's certificat
+e (2 shares, 20%, one certificate).
+ It can be bought from the IPO by:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Selecting an available par price for the company.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The available par prices are limited by the current game phase (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-Phases"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Putting the company's par price marker in the matching box of the par price
+ chart.
+\end_layout
+
+\begin_layout Enumerate
+Putting the company's stock price marker in the matching coloured box in
+ the diagonal line of par prices on the stock market
+\end_layout
+
+\begin_layout Enumerate
+Paying twice that value to the bank.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+After the 20% director's certificate has been parred and bought, the 10%
+ certificates of the company are available for purchase:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+From the IPO chart for the par price.
+\end_layout
+
+\begin_layout Itemize
+From the bank pool (if they have been sold by players) for the current stock
+ price.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A company is 
+\begin_inset Quotes eld
+\end_inset
+
+started
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+floated
+\begin_inset Quotes erd
+\end_inset
+
+ when no more than 40% of the company's shares (four 10% certificates) remain
+ on the IPO chart.
+ At that time:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+10 times the company's par price is placed on the company's charter as the
+ initial capital for the company.
+\end_layout
+
+\begin_layout Itemize
+The charter and control of the company is given to the player holding the
+ director's certificate.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A company that has 
+\begin_inset Quotes eld
+\end_inset
+
+floated
+\begin_inset Quotes erd
+\end_inset
+
+ will operate in all future operating rounds for the rest of the game.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Only companies that have 
+\begin_inset Quotes eld
+\end_inset
+
+floated
+\begin_inset Quotes erd
+\end_inset
+
+ operate in operating rounds.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Company directors
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Company-directors"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The player that holds the most shares of a company (largest total percentage),
+ is the director of the company, has the 20% director's share of the company
+ and controls all of that company's operations (if it has floated).
+\end_layout
+
+\begin_layout Itemize
+If a player buys shares such that they own a larger percentage of company
+ than the current director:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+They become the new company director by exchanging two 10% certificates
+ of the company for the 20% director's certificate of the company and taking
+ control of the company charter and its assets.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The director's share can never be sold, only transferred to another player.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Once a company has floated, there is always a player that owns the 20% director'
+s certificate and is the director of the company.
+\end_layout
+
+\begin_layout Itemize
+In order to transfer director control of a company:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The director's share must be exchanged for two 10% certificates of the player
+ with the most shares of the company after the sale, assigning control of
+ the company, its charter and assets to that player.
+\end_layout
+
+\begin_layout Enumerate
+The previous director must sell sufficient shares of the company that they
+ own fewer shares of the company than the new director after the sale.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In the case of a tie among other players for the most shares after the sale,
+ the next tied player in player card order from the current director becomes
+ the new director.
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Certificate limit
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Certificate-limit"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A certificate is a 20% director's share of a company, a 10% share of a company,
+ or a private company.
+ 
+\end_layout
+
+\begin_layout Itemize
+A player cannot own more certificates than the limit specified for the number
+ of players in the game (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Starting-Player-Capital"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Exception: Certificates of companies whose stock price marker is in the
+ yellow, orange or brown section in the lower left corner of the stock market
+ (not the coloured par price locations) do not count against the certificate
+ limit.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A player must own fewer certificates than the certificate limit before buying
+ an additional certificate.
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Exception: Players at certificate limit can purchase shares whose stock
+ price marker is in the yellow, orange or brown section in the lower left
+ corner the stock market (not the par price locations).
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If a player's holdings exceed the certificate limit, they must sell sufficient
+ certificates in their next opportunity for their holdings to be within
+ the certificate limit after the sale (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Selling-shares"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Stock price movement
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Stock-price-movement"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The current stock price of a company's shares is recorded on the stock market
+ with a stock price marker.
+\end_layout
+
+\begin_layout Itemize
+For each 10% certificate sold by a player, the stock price marker is moved
+ down one row.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If a stock price marker is moved to a square that already contains other
+ stock price markers, it is placed at the bottom of the stack.
+\end_layout
+
+\begin_layout Itemize
+If the stock price marker is is moved to the bottom of a column of the stock
+ market, then it is not moved any further by that stock sale action.
+\end_layout
+
+\begin_layout Itemize
+If the stock price marker was already at the bottom of column of the stock
+ market when the share(s) were sold, and the stock price marker was part
+ of a stack of other stock price markers, then the stock price marker is
+ moved down in the stack of stock price markers once per 10% certificate
+ sold.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If such a stock price marker reaches the bottom of the stack of stock price
+ markers then it is not moved further.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+If a company pays a dividend during an operating round (more than 0fr per
+ share), then its stock price marker is moved one column to the right.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If the stock price marker is already at the right end of a row in the stock
+ market, it is moved up to the next higher row.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If a stock price marker reaches the top right corner of the stock market
+ (500fr), then the game will end at the end of that operating round (see
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-end"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+If a company does not pay a dividend or it withholds its dividend during
+ an operating round, then its stock price marker is moved one column to
+ the left.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If the stock price marker is already at the left end of a row in the stock
+ market, then it is moved down to the next lower row.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If the stock price marker is in a bottom-left corner, then it is not moved.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If a red line blocks movement to the left, then the stock price marker is
+ moved down to the next lower row instead of to the left.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If at the end of a stock round all of the shares of a company (100%) are
+ owned by players, then the stock price marker is moved up one row.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If the stock price marker is already at the top row of that column, then
+ the stock price marker is instead moved one row down and one column to
+ the right.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If a stock price reaches 500fr, then the game ends (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-end"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+When a stock price marker is moved, it is placed under any stock price markers
+ already present in the new location.
+\end_layout
+
+\begin_layout Itemize
+If shares of multiple companies are sold at the same time, the player must
+ decide the order in which they are sold and thus the order in which their
+ stock price markers are moved and potentially the order in which they operate
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Selling-shares"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Company-operating-order"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Section
+Operating Rounds
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Operating-Rounds"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+General 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:OR-General"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Private companies pay their revenue (shown on their certificate) from the
+ bank to their player or company owners.
+\end_layout
+
+\begin_layout Enumerate
+Each port marker owned by a company pays 20fr from the bank to that company's
+ treasury.
+\end_layout
+
+\begin_layout Enumerate
+All floated companies operate in order.
+\end_layout
+
+\begin_layout Subsection
+Company operating order
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Company-operating-order"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Each floated company operates in order of descending stock price.
+\end_layout
+
+\begin_layout Itemize
+Companies with the same stock price whose stock price marker is further
+ right on the stock market operate before other companies with the same
+ stock price.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The stock price markers of companies in the same square of the stock market
+ are stacked in the order they'll operate, from the top down.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+As companies operate, their stock price markers are turned upside down and
+ moved to their new price location (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Stock-price-movement"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Stock price markers moving to the same square as other stock price markers
+ are placed under other face-up stock price markers and on top of other
+ face-down stock price markers.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+At the end of the operating round the upside-down stock price markers are
+ turned face-up.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The principle is that companies whose stock price marker have been at that
+ location in the stock market the longest will operate before companies
+ newly arrived at that stock price.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Each company completes all of its actions in the operating round before
+ the next company operates.
+\end_layout
+
+\begin_layout Subsection
+Operating round actions
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Operating-round-actions"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Operating companies perform the following steps in the order listed:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+(
+\emph on
+If the first time the company has operated
+\emph default
+) Place the company's home station marker on the designated location (see
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Public-Companies"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+(Optional) 
+\emph default
+Build track (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Build-track"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+(Optional) 
+\emph default
+Place or Move station marker or claim port marker (
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Place-station-marker"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+Run train(s) (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Run-train(s)"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+Pay or withhold dividends (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Pay-or-withhold"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+(May be optional) 
+\emph default
+Buy train(s) (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Buy-train(s)"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Emergency-train-buying"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+(Optional) 
+\emph default
+Buy port marker(s) (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Buy-Port-Marker(s)"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Description
+Exception: In green phase or later, private companies may be bought from
+ players at any time during a company's operation for between 1fr and twice
+ the face value of the private company (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Private-Companies"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Description
+Exception: In yellow phase and only in 6-player games, the 
+\noun on
+Cie du Val de Loire
+\noun default
+ may be bought at any time during a company's operation for exactly face
+ value (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Private-Particulars"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Once a company has performed all operations, the next company in order operates
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Company-operating-order"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Build track
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Build-track"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A company may decline to place or upgrade track tiles, or may place a yellow
+ track tile (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Placing-Track"
+
+\end_inset
+
+) or may upgrade a single track tile or hexagon (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Upgrading-track"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsubsection
+Placing Track
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Placing-Track"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A company may place one yellow track tile per operating round.
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Exception: The 
+\noun on
+Chemins de fer de l'Est
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+,
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun on
+\color inherit
+ Chemin de fer du Midi
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun on
+\color inherit
+Chemins de fer de l'Ouest
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun on
+\color inherit
+Chemins de fer de Provence
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ and 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun on
+\color inherit
+Chemin de fer du Sud - Ouest
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ may place two yellow track tiles instead of one yellow track tile at a
+ cost of 20fr paid to the bank from the treasury in addition to any terrain
+ cost.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The track tiles are limited to those available in the supply.
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Exception: The supply of yellow #7, #8 and #9 track tiles is unlimited.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Yellow track tiles can be placed on the towns, cities and rural hexagons
+ of the map and cannot be placed on red off board hexagons, or gray prebuilt
+ hexagons (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Map"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Only yellow track tiles are available at the beginning of the game.
+ Later in the game green, brown and gray track tiles become available (see:
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Upgrading-track"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Green track tiles upgrade/replace yellow track tiles or yellow-background
+ map hexagons.
+\end_layout
+
+\begin_layout Itemize
+Brown track tiles upgrade/replace green track tiles.
+\end_layout
+
+\begin_layout Itemize
+Gray track tiles upgrade/replace brown track tiles.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+City
+\begin_inset space ~
+\end_inset
+
+track
+\begin_inset space ~
+\end_inset
+
+tiles Must be placed on city hexagons containing one or more large cities
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Map"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Track-types"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Description
+Town
+\begin_inset space ~
+\end_inset
+
+track
+\begin_inset space ~
+\end_inset
+
+tiles Must be placed on town hexagons containing a town (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Map"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Track-types"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Description
+Double
+\begin_inset space ~
+\end_inset
+
+town
+\begin_inset space ~
+\end_inset
+
+track
+\begin_inset space ~
+\end_inset
+
+tiles Must be placed on double town hexagons containing two towns (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Map"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Track-types"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Description
+Simple
+\begin_inset space ~
+\end_inset
+
+track
+\begin_inset space ~
+\end_inset
+
+tiles Must be placed on hexagons which don't contain city circles or town
+ circles, and are not gray pre-built hexagons or red off board hexagons.
+\end_layout
+
+\begin_layout Itemize
+After placing a track tile the placing company must be able to trace a continuou
+s line of track from one of its station markers to a line of track on the
+ placed track tile without:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Passing through a city all of whose station-marker spaces are filled with
+ other companies' station markers.
+\end_layout
+
+\begin_layout Itemize
+Crossing any hexagon-edge twice.
+\end_layout
+
+\begin_layout Itemize
+Reversing direction at a junction on a simple track tile.
+\end_layout
+
+\begin_layout Description
+Exception: A track tile placed using the power of the 
+\noun on
+Cie de Paris - Saint-Germain, Cie du Havre
+\noun default
+ or 
+\noun on
+Cie de Boulogne - Amiens
+\noun default
+ private companies is not subject to the above track limits (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Private-Particulars"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Track tiles must not be placed such that a line of track:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Already present on the map is not preserved by the track tile.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Only the connectivity is important, not the exact shape of the line of track.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Runs off the edge of the map (no further hexagons).
+\end_layout
+
+\begin_layout Itemize
+Runs to the edge of a gray pre-built hexagon which doesn't have pre-printed
+ track running to it.
+\end_layout
+
+\begin_layout Itemize
+Runs to the edge of a red off board hexagon which doesn't have a black triangle/
+arrow to indicate a continuation for the track.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A company placing a track tile on a mountain or river hexagon (marked with
+ a blue or brown triangle) which has not previously contained a track tile
+ must pay the terrain cost (number in the triangle) from its treasury to
+ the bank before placing the tile (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Map"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Pre-existing track connections (pre-printed on the map or a previously placed
+ track tile) must be preserved by new track tiles placed on the hexagon.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Only the connectivity is important, not the exact shape of the line of track.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Upgrading track
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Upgrading-track"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A company may upgrade one track tile per operating round instead of placing
+ yellow track tiles.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Starting in Green-Phase, companies may upgrade yellow track tiles to green
+ track tiles.
+\end_layout
+
+\begin_layout Itemize
+Starting in Brown-Phase, companies may upgrade green track tiles to brown
+ track tiles.
+\end_layout
+
+\begin_layout Itemize
+Starting in Gray-Phase, companies may upgrade brown track tiles to gray
+ track tiles.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The track tiles are limited to those available in the supply.
+\end_layout
+
+\begin_layout Itemize
+After upgrading a track tile the placing company must be able to trace a
+ continuous line of track from one of its station markers to a line of track
+ on the placed track tile without:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Passing through a city all of whose station-marker spaces are filled with
+ other companies' station markers.
+\end_layout
+
+\begin_layout Itemize
+Crossing any hexagon-edge twice.
+\end_layout
+
+\begin_layout Itemize
+Reversing direction at a junction on a simple track tile.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Track tiles must not be upgraded such that a line of track:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Already present on the map or previous tile is not preserved by the track
+ tile.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Only the connectivity is important, not the exact shape of the line of track.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Runs off the edge of the map (no further hexagons).
+\end_layout
+
+\begin_layout Itemize
+Runs to the edge of a gray pre-built hexagon which doesn't have pre-printed
+ track running to it.
+\end_layout
+
+\begin_layout Itemize
+Runs to the edge of a red off board hexagon which doesn't have a black triangle/
+arrow to indicate a continuation for the track.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The upgraded track tile is returned to the supply for future use.
+\end_layout
+
+\begin_layout Itemize
+If a track tile on a mountain or river is upgraded (marked with a blue or
+ brown triangle), the terrain cost is not paid again (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Map"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Station markers are moved to their corresponding locations on the new tile
+ when upgrading a track tile or hexagon.
+\end_layout
+
+\begin_layout Subsubsection
+Special track placement rules
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Special-track-placement"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Track tiles are limited to those available in the supply.
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Exception: The supply of yellow #7, #8 and #9 track tiles is unlimited.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Track tiles marked with a city name must be used when placing a track tile
+ of that colour at those locations.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The track tiles for Lille, Lyon & Paris must be placed such that the city-name
+ on the tile reads from left-to-right when viewed from the bottom of the
+ map.
+\end_layout
+
+\begin_layout Itemize
+Only 
+\begin_inset Quotes eld
+\end_inset
+
+OO
+\begin_inset Quotes erd
+\end_inset
+
+ track tiles can be used on 
+\begin_inset Quotes erd
+\end_inset
+
+OO
+\begin_inset Quotes erd
+\end_inset
+
+ hexagons.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Placing or upgrading the Paris track tile always costs 40fr from the company
+ treasury.
+\end_layout
+
+\begin_layout Itemize
+In brown phase, one double-town yellow track tile may be upgraded directly
+ to the brown G58 track tile without an intervening green tile.
+\end_layout
+
+\begin_layout Itemize
+The 
+\noun on
+Chemins de fer de l'Est
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+,
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun on
+\color inherit
+ Chemin de fer du Midi
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun on
+\color inherit
+Chemins de fer de l'Ouest
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun on
+\color inherit
+Chemins de fer de Provence
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ and 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun on
+\color inherit
+Chemin de fer du Sud - Ouest
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ may place two yellow track tiles per operating round instead of one yellow
+ track tile at a cost of 20fr paid to the bank from the company treasury
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Placing-Track"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+In brown phase the 
+\noun on
+Chemin de fer du Midi
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun on
+\color inherit
+Chemins de fer de Provence
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ and 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun on
+\color inherit
+Chemin de fer du Sud - Ouest
+\noun default
+ may place or upgrade any port location (Boulogne-sur-mer/Calais (C18),
+ Bordeaux (H7), Brest (A6), Le Havre (C14), Marseille (N15) and Toulouse
+ (K8)) to or from which they can trace a line of track, directly to a brown
+ track tile as if there were already a green track tile there (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Upgrading-track"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Subsection
+Place station marker or claim port marker
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Place-station-marker"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Placing a station marker
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Placing-a-station"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In order to place a station marker the company must:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Have a station marker available to be placed (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Public-Companies"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+Pay for the station marker from its treasury (40fr for the company's first
+ station marker and 100fr for all subsequent station markers).
+\end_layout
+
+\begin_layout Enumerate
+Place the station marker in an empty city circle which can trace a line
+ of track to either the company's home station or to a previously placed
+ station marker of that company without:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Passing through a city all of whose station-marker spaces are filled with
+ other companies' station markers.
+\end_layout
+
+\begin_layout Itemize
+Crossing any hexagon-edge twice.
+\end_layout
+
+\begin_layout Itemize
+Reversing direction at a junction on a simple track tile.
+\end_layout
+
+\begin_layout Description
+Exception: Station markers may be placed using the power of either the 
+\noun on
+Cie du Havre
+\noun default
+ or 
+\noun on
+Cie de Boulogne - Amiens
+\noun default
+ private companies without satisfying the above limits (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Private-Particulars"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+A company cannot place:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+More than one station marker (not counting its home station) per operating
+ round.
+\end_layout
+
+\begin_layout Itemize
+More than one station marker on a hexagon.
+\end_layout
+
+\begin_layout Itemize
+A station marker if it will claim a port marker in this operating round.
+\end_layout
+
+\begin_layout Itemize
+A station marker in the last available city circle of a hexagon that is
+ also the home station of a company if that company has not already placed
+ its home station.
+\end_layout
+
+\begin_layout Itemize
+A station marker at Albi/Montauban (J9) until the 
+\noun on
+Chemin de fer du Midi
+\noun default
+ has placed its home station on one side or the other of a track tile at
+ Albi/Montauban (J9).
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Move station marker (
+\emph on
+gray phase only
+\emph default
+)
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Move-Station-Marker"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Each company, once per game, may move one of its already placed station
+ markers, including its home station, for a cost of 100fr paid from its
+ treasury to the bank.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The company must already own a gray train and have the required 100fr in
+ its treasury.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The station marker is moved as if it were being placed in the normal manner
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Placing-a-station"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Exception: The station marker can be moved from one location on a city tile
+ to another location on the same city tile (may be the same city).
+\end_layout
+
+\begin_layout Itemize
+A 
+\begin_inset Quotes eld
+\end_inset
+
+blocked
+\begin_inset Quotes erd
+\end_inset
+
+ station marker from the supply is placed in the prior location of the station
+ marker.
+\end_layout
+
+\begin_layout Itemize
+The company must be able to trace a line of track from the new station marker
+ to either another station marker of the same company, or to the just-placed
+ 
+\begin_inset Quotes eld
+\end_inset
+
+blocked
+\begin_inset Quotes erd
+\end_inset
+
+ station marker, without:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Passing through a city all of whose station-marker spaces are filled with
+ other companies' station markers.
+\end_layout
+
+\begin_layout Itemize
+Crossing any hexagon-edge twice.
+\end_layout
+
+\begin_layout Itemize
+Reversing direction at a junction on a simple track tile.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Blocked
+\begin_inset Quotes erd
+\end_inset
+
+ station markers limit train routes in the same way as the station markers
+ of other companies.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Claim port marker
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Claiming-a-port"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+There are 6 port markers, one each in Boulogne-sur-mer/Calais (C18), Bordeaux
+ (H7), Brest (A6), Le Havre (C14), Marseille (N15) and Toulouse (K8).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The port marker in the 
+\begin_inset Quotes eld
+\end_inset
+
+OO
+\begin_inset Quotes erd
+\end_inset
+
+ hexagon of Boulogne-sur-Mer/Calais is considered to be in either or both
+ cities in the hexagon.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A company may claim a port market still on the map and put it on the charter
+ of the company, if the company:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Owned a train at the start of its operating round.
+\end_layout
+
+\begin_layout Itemize
+Has not placed a station marker in this operating round.
+\end_layout
+
+\begin_layout Itemize
+Has a route of at least two stops which included the city with an unclaimed
+ port marker (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Route-definition"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Run train(s)
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Run-train(s)"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A company that has one or more trains must 
+\begin_inset Quotes eld
+\end_inset
+
+run
+\begin_inset Quotes erd
+\end_inset
+
+ them for the largest legal revenue indicated by a shareholder of the company.
+\end_layout
+
+\begin_layout Subsubsection
+Route definition
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Route-definition"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A train 
+\begin_inset Quotes eld
+\end_inset
+
+route
+\begin_inset Quotes erd
+\end_inset
+
+ consists of a line of track joining multiple revenue locations (towns,
+ cities or off boards).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+At least one of the cities along the route must contain the company's station
+ marker.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Off boards are termini.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Exception: A route can pass through Genève.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A route can:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Begin or end at a town, city or off board.
+\end_layout
+
+\begin_layout Itemize
+Pass through a city containing one of the company's station makers.
+\end_layout
+
+\begin_layout Itemize
+Pass through a town or a city with an open station marker location.
+\end_layout
+
+\begin_layout Itemize
+Use multiple entirely separate lines of track on the same tile.
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Note: Track tiles such as #16, #19, #20 etc and parts of #43, #44, #45 &
+ #46 etc represent railway bridges and thus lines of track that do not intersect.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Enter an unblocked town or city from one direction and exit in any other
+ connected direction.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A route cannot:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Cross the same hexagon-edge more than once.
+\end_layout
+
+\begin_layout Itemize
+Use the same piece of track on a track tile more than once (no matter how
+ small the track section may be).
+\end_layout
+
+\begin_layout Itemize
+Pass through a city which doesn't doesn't have an open station marker location
+ and doesn't contain the company's station marker.
+\end_layout
+
+\begin_layout Itemize
+Run to or through the same town or city more than once.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+But can run to or through multiple distinct cities on 
+\begin_inset Quotes eld
+\end_inset
+
+OO
+\begin_inset Quotes erd
+\end_inset
+
+ track tiles or Paris (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Track-types"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Reverse direction on a simple track tile.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The routes of multiple trains run by the same company during an operating
+ round must not share or re-use any line of track.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The routes can meet or cross at towns or cities provided that they use entirely
+ separate sections of track.
+\end_layout
+
+\begin_layout Itemize
+Switches, for example on green simple track tiles (e.g.
+ #23), can be used by only one of a company's trains as the two lines of
+ track merge and share a short length of track on the track tile where the
+ lines merge.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A route must contain at least two revenue locations (
+\begin_inset Quotes eld
+\end_inset
+
+stops
+\begin_inset Quotes erd
+\end_inset
+
+: towns, cities or off boards).
+\end_layout
+
+\begin_layout Itemize
+The total number and variety of towns, cities or off boards in the route
+ run by a train must not exceed the range of the type of train (specified
+ on its certificate - see: 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Train-Roster"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Train-types"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+A company must not run more trains than the current train limit (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Train-Limit"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsubsection
+Run calculation
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Run-calculation"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The revenue value of a route is the sum of the revenues of all the towns,
+ cities and off boards (
+\begin_inset Quotes eld
+\end_inset
+
+stops
+\begin_inset Quotes erd
+\end_inset
+
+) along the route that are counted by the type of train selected to run
+ that route (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Train-Roster"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Train-types"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+The revenue value of off boards is based on the game phase:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+An off board's revenue value applies from its background-colour's game-phase
+ until superseded by a value with a later game-phase colour background.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The total revenue of a company is the sum of the revenues of all its trains'
+ routes.
+\end_layout
+
+\begin_layout Subsection
+Pay or withhold dividends
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Pay-or-withhold"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The director of a company has the sole discretion whether the company's
+ total revenue is paid out in dividends to its shareholders or withheld
+ in the company's treasury
+\end_layout
+
+\begin_layout Itemize
+If the revenue is paid out in dividends:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Each player receives as dividends from the bank the percentage of the total
+ revenue that corresponds to the total percentage of the shares that they
+ own.
+\end_layout
+
+\begin_layout Itemize
+Shares in the bank pool pay their fraction of the total revenue as a dividend
+ from the bank to the company treasury.
+\end_layout
+
+\begin_layout Itemize
+No dividend is paid for un-bought shares in the IPO.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If the revenue is withheld:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The entire revenue is paid by the bank to the company treasury.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Paying or withholding dividends may affect the company's stock price (see:
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Stock-price-movement"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Buy train(s)
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Buy-train(s)"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Train purchasing
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Train-purchasing"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A company that has not reached its train limit may buy a train certificate
+ that would not cause it to exceed the train limit before any game phase
+ change caused by the purchase takes effect (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-Phases"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Train-Limit"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Train certificates can be bought from the bank pool or supply for face value,
+ or from another company for any price agreed upon by the directors of both
+ companies (minimum 1fr, also see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Emergency-train-buying"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Train certificates are available from the supply in colour order: first
+ yellow, then green, blue, brown, red and finally gray.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+All the train certificates of a given colour must be bought before the train
+ certificates of the next colour are available.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Yellow, green, blue and brown train certificates are double-sided, typically
+ with a single train on one side and an 
+\begin_inset Quotes eld
+\end_inset
+
+×2
+\begin_inset Quotes erd
+\end_inset
+
+ pair of smaller trains on the other side (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Train-types"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A company with sufficient treasury for the purchase and spare capacity within
+ the train limit can buy either side of a double-sided train certificate
+ from the supply for the marked price (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Train-Limit"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Train-types"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Train-Roster"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Game phase changes are caused by train certificate purchases of new colours
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-Phases"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Some game phase changes will cause trains to 
+\begin_inset Quotes eld
+\end_inset
+
+rust
+\begin_inset Quotes erd
+\end_inset
+
+ and be removed from the game (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-Phases"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Game phase changes apply immediately to all companies in the game simultaneously.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+In gray phase, single rusted train certificates are also available for purchase
+ from the supply at face value (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Gray-Train-Roster"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+All the rusted single (not 
+\begin_inset Quotes eld
+\end_inset
+
+×2
+\begin_inset Quotes erd
+\end_inset
+
+) train certificates are available simultaneously.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This includes both the 
+\begin_inset Quotes eld
+\end_inset
+
+2+1
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+3+1
+\begin_inset Quotes erd
+\end_inset
+
+ yellow trains for 125fr and 200fr respectively.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Rusted train certificates can only be bought using money from the company
+ treasury.
+\end_layout
+
+\begin_layout Itemize
+Rusted train certificates may be bought between companies in the normal
+ manner, using money from the company treasury only (no contribution by
+ the director).
+\end_layout
+
+\begin_layout Itemize
+A company cannot own more than one rusted train certificate.
+\end_layout
+
+\begin_layout Itemize
+A rusted train certificate counts toward the train limit (see: 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Train-Limit"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+A rusted train certificate does not satisfy the requirement for a company
+ with a route to own a train certificate (see: 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Emergency-train-buying"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+A rusted train certificate may be discarded by a company without recompense
+ during the train-buying step of its operating round in order to immediately
+ purchase a larger train from the supply or another company (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Train-purchasing"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A company with a route (a line of track from one of its station markers
+ to a town, city or off board) must own a train certificate at the end of
+ the train buying step when it operates during an operating round (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Route-definition"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+If the company does not own a train certificate, is obligated to own a train
+ certificate by having a route, and does not have enough money in its treasury
+ to purchase a train certificate from the bank pool, supply or another company
+ (with the other company's director's agreement), then the company enters
+ Emergency Train Buying (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Emergency-train-buying"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsubsection
+Train limit
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Train-Limit"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The number of trains and train certificates a company can own is limited
+ by the game phase (see
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-Phases"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+A company that has not reached its train limit may buy a train certificate
+ that would not cause it to exceed the train limit before any game phase
+ change caused by the purchase takes effect (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-Phases"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Train-Limit"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\begin_inset Quotes eld
+\end_inset
+
+2×2 or 3+1
+\begin_inset Quotes erd
+\end_inset
+
+ train certificates may be counted as a single 
+\begin_inset Quotes eld
+\end_inset
+
+3+1
+\begin_inset Quotes erd
+\end_inset
+
+ train or as two 
+\begin_inset Quotes eld
+\end_inset
+
+2
+\begin_inset Quotes erd
+\end_inset
+
+ trains at the director's discretion, and as limited by the train limit
+ at that time.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Train limits are checked and enforced when train certificates are bought,
+ when the game phase changes (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+) and when trains are run during an operating round (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Run-train(s)"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A yellow 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+
+\begin_inset Quotes eld
+\end_inset
+
+2×2 or 3+1
+\begin_inset Quotes erd
+\end_inset
+
+ train may be run as two 
+\begin_inset Quotes eld
+\end_inset
+
+2
+\begin_inset Quotes erd
+\end_inset
+
+ trains or as a single 
+\begin_inset Quotes eld
+\end_inset
+
+3+1
+\begin_inset Quotes erd
+\end_inset
+
+ train at the director's choice at the time of running the train, as limited
+ by the train limit at that time.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A company with more trains or train certificates than the current train
+ limit must discard trains or train certificates to the bank pool without
+ recompense until it is within the current train limit.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Doubled 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+
+\begin_inset Quotes eld
+\end_inset
+
+×2
+\begin_inset Quotes erd
+\end_inset
+
+ trains may be turned over to their single train side in order to comply
+ with the train limit.
+\end_layout
+
+\begin_layout Itemize
+A 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+yellow 
+\begin_inset Quotes eld
+\end_inset
+
+2×2 or 3+1
+\begin_inset Quotes erd
+\end_inset
+
+ certificate may be counted as a single 
+\begin_inset Quotes eld
+\end_inset
+
+3+1
+\begin_inset Quotes erd
+\end_inset
+
+ train or as two 
+\begin_inset Quotes eld
+\end_inset
+
+2
+\begin_inset Quotes erd
+\end_inset
+
+ trains at the director's discretion, as limited by the train limit.
+\end_layout
+
+\begin_layout Itemize
+Train certificates in excess of the current limit must be discarded to the
+ bank pool.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Emergency train buying
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Emergency-train-buying"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A train-less company with a route (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Route-definition"
+
+\end_inset
+
+) must acquire a train certificate during the train-buying step of its operation
+s.
+\end_layout
+
+\begin_layout Itemize
+If the company does not have enough money in its treasury to buy a train
+ certificate, then the director must contribute the money to buy the train
+ certificate from their personal funds.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If the director does not have enough money to donate to buy the train certificat
+e, the director must sell shares and private companies to raise the additional
+ funds (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Selling-shares"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Private companies can be discarded from the game during Emergency Train
+ Buying for their face-value.
+\end_layout
+
+\begin_layout Itemize
+Normal share-selling rules apply (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Selling-shares"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Director control of the currently operating company may not be transferred
+ to another player during Emergency Train Buying (see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Company-directors"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+The movement of stock prices from sold shares may change the order of operation
+ of other companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Company-operating-order"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If shares are sold such that director control of a different company transfers
+ to a new director, then director control of the company transfers before
+ a train certificate may be bought from that company.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+If the company is still unable to buy a train certificate from the bank
+ pool or supply after the director has contributed all possible funds, cashed
+ in all their private companies and sold all legally sellable shares (see
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Selling-shares"
+
+\end_inset
+
+), and no other company is willing to sell one of its trains to the company
+ for an agreeable price, then the player is declared bankrupt and the game
+ is immediately ended (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-end"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+The company director can only contribute funds for a train certificate purchase
+ if the company is obligated to own a train certificate (has a route), and
+ does not own a train certificate.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The company director cannot contribute more money than is required to buy
+ the selected train certificate.
+\end_layout
+
+\begin_layout Itemize
+A train certificate bought from another company with director's contributions
+ cannot be bought for more than face value.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A company that buys a train certificate with a director's contribution necessari
+ly ends the operating route with no money in its treasury.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Train certificates bought from the bank pool or supply with director's contribut
+ions must be the cheapest available from both the bank pool and supply.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A company is not obligated to buy a train certificate from another company
+ if one is offered more cheaply than the train certificates in the bank
+ pool or supply.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Buy port marker(s)
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Buy-Port-Marker(s)"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Port markers may be bought from other companies for exactly 20fr each with
+ the agreement of the directors of both companies.
+\end_layout
+
+\begin_layout Subsection
+Game end
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:End-of-the"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Criteria
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Game-end"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1843 can end in four ways:
+\end_layout
+
+\begin_layout Enumerate
+If a player goes bankrupt (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Emergency-train-buying"
+
+\end_inset
+
+), the game ends immediately.
+\end_layout
+
+\begin_layout Enumerate
+If all six yellow trains are discarded during the private auction (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Private-auction-resolution"
+
+\end_inset
+
+), the game ends immediately.
+\end_layout
+
+\begin_layout Enumerate
+If a company's stock price reaches 500fr per share:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+At the end of a stock round because it was 100% held by players, then the
+ game ends immediately,
+\end_layout
+
+\begin_layout Enumerate
+By paying a dividend during an operating round and having the stock price
+ move to the right/up, then the game ends at the end of that operating round
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Stock-price-movement"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The game ends at the end of the second set of operating rounds during which
+ at least one company owned a gray train.
+\end_layout
+
+\begin_layout Subsubsection
+Scoring
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Scoring"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A player’s score is their net worth: the sum total of personal cash and
+ the value of their portfolio.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Company assets (tokens, trains and capital) have no significance to player's
+ final scores.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Private companies (if still held by players) are worth their face value.
+\end_layout
+
+\begin_layout Itemize
+Shares are valued at their stock price when the game ended.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+\noun on
+The player with the largest net worth wins the game.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+There is no tie-breaker.
+\end_layout
+
+\end_deeper
+\begin_layout Part
+Acknowledgments 
+\begin_inset CommandInset label
+LatexCommand label
+name "part:Acknowledgments"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The designer would like to thank Francis Tresham for the design and development
+ of the wonderful field of 18xx games, Helmut Ohley for 18FR and his support
+ and encouragement in the production of 1843, David G Hecht for kindly suggestin
+g the working subtitle for the game along with many language points and
+ art for the trains, John Tamplin for his assistance with track tile development
+, and Michael Calhoon for his bounteous supply of notions, complaints and
+ sounding board in equal measures.
+ Additional thanks go to the many play-testers, some few of whom are Daniel
+ Barnes, Dave Berry, Jim Black, Michael Calhoon, Aliza Panitz, Ron Sapolsky
+ and Tim Skirvin.
+ Credit also goes to those who helped correct the various names and spellings
+ for the map and other components, including James Cheevers, David G Hecht,
+ Guy-Luc Jouan, Bruce Murphy and Steve Thomas.
+ I have been honoured to design games for and with such wonderful people.
+ 
+\end_layout
+
+\begin_layout Standard
+I hope you enjoy the game!
+\end_layout
+
+\begin_layout Standard
+-- J C Lawrence
+\end_layout
+
+\begin_layout Part
+Addenda
+\end_layout
+
+\begin_layout Section
+Map
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Map"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The map consists of various types of hexagons:
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Cities Contain large white circles along with the name(s) of the cities.
+\end_layout
+
+\begin_layout Description
+Towns Contain one or two small black circles.
+\end_layout
+
+\begin_layout Description
+Rural
+\begin_inset space ~
+\end_inset
+
+hexagons Rural spaces that may have terrain (rivers: blue triangles, hills/mount
+ains: brown triangles).
+\end_layout
+
+\begin_layout Description
+Red
+\begin_inset space ~
+\end_inset
+
+off
+\begin_inset space ~
+\end_inset
+
+boards Red hexes representing connections to areas not shown on the map.
+ Black triangles or 
+\begin_inset Quotes eld
+\end_inset
+
+spikes
+\begin_inset Quotes erd
+\end_inset
+
+ mark the track connections to those locations.
+ Track tiles can be placed adjacent to them so that the lines of track connect
+ to the 
+\begin_inset Quotes eld
+\end_inset
+
+spikes
+\begin_inset Quotes erd
+\end_inset
+
+ leading to the remote connections.
+\end_layout
+
+\begin_layout Description
+Gray
+\begin_inset space ~
+\end_inset
+
+hexagons Prebuilt un-alterable/un-upgradeable track.
+ Track tiles cannot be placed on gray hexes, or adjacent to them such that
+ a line of track runs into a blank gray hexagon-edge.
+ 
+\end_layout
+
+\begin_layout Description
+Yellow
+\begin_inset space ~
+\end_inset
+
+hexagons Represent yellow pre-built track tiles on the map.
+ They can be upgraded using green track tiles in green phase or later.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Terrain is marked with blue (river) and brown (hill or mountain) triangles
+ containing the terrain cost for building track.
+\end_layout
+
+\begin_layout Itemize
+Revenue locations are marked with their revenue as a number in a small white
+ circle, or as a series of numbers against colour backgrounds matching the
+ game phases to which they apply (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Run-calculation"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Some hexagons are marked with a red bar, denoting that they are blocked
+ by matching private companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Private-Particulars"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Six hexagons are also ports and are marked with a nearby anchor symbol:
+ Boulogne-sur-mer/Calais (C18), Bordeaux (H7), Brest (A6), Le Havre (C14),
+ Marseille (N15) and Toulouse (K8) (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Claiming-a-port"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Neighbouring countries and sea areas are shown, but do not affect or participate
+ in gameplay.
+\end_layout
+
+\begin_layout Section
+Private Companies
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Private-Companies"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+General:
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Private-Companies-General"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Private companies pay their revenue from the bank to their owners (player
+ or company) at the start of each operating round (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:OR-General"
+
+\end_inset
+
+)
+\noun on
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Private companies do not otherwise 
+\begin_inset Quotes eld
+\end_inset
+
+operate
+\begin_inset Quotes erd
+\end_inset
+
+ and do not lay track or buy or run trains.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+In green phase or later, public companies may purchase private companies
+ from players (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Operating-round-actions"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The purchase may be done at any time during the operation of that company.
+\end_layout
+
+\begin_layout Itemize
+Both the director of the public company and the owner of the private company
+ must agree to the purchase.
+\end_layout
+
+\begin_layout Itemize
+The purchase price may range from 1fr to twice the private company's face
+ value.
+ 
+\end_layout
+
+\begin_layout Itemize
+The purchase price is paid from the public company's treasury to the selling
+ player.
+\end_layout
+
+\begin_layout Itemize
+Purchased private companies are moved to their owning public company's
+\noun on
+ 
+\noun default
+charter and future revenues from the private company will be paid to the
+ owning company's treasury.
+\end_layout
+
+\begin_layout Itemize
+The owning public company may use the special power of that private company,
+ if any, when operating during an operating round from the point of purchase
+ onward and as long as the private company has not closed.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Some private company's powers can only be used in certain steps of a company's
+ operations (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Private-Particulars"
+
+\end_inset
+
+)
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Exception In a 6-player game the 
+\noun on
+Cie du Val de Loire
+\noun default
+ may be purchased by a
+\noun on
+ 
+\noun default
+public company for face value in yellow phase
+\noun on
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Most private companies block specific hexes on the map and track tiles cannot
+ be built or upgraded at those hexes until the matching private company
+\noun on
+ 
+\noun default
+has been purchased by a public company or closed.
+\end_layout
+
+\begin_layout Itemize
+When private companies close they are removed from the game and have no
+ further effect on play.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+All the private companies close immediately at the start of brown phase
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-Phases"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Private companies owned by players count as certificates against the player's
+ certificate limit (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Certificate-limit"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Particulars
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Private-Particulars"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\noun on
+Compagnie de Toulouse à Barcelone
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Face
+\begin_inset space ~
+\end_inset
+
+value: 15fr
+\end_layout
+
+\begin_layout Description
+Revenue: 0fr
+\end_layout
+
+\begin_layout Description
+Blocks: Toulouse (K8)
+\end_layout
+
+\begin_layout Description
+Closes: When the power is used or at the start of brown phase
+\noun on
+.
+\end_layout
+
+\begin_layout Description
+Power: An owning public company may place an additional yellow track tile
+ in the normal manner as part of and in addition to the company's normal
+ track-build.
+ The cost is 20fr paid from the company treasury to the bank.
+ The 
+\noun on
+Compagnie de Toulouse à Barcelone
+\noun default
+ is then closed and removed from the game.
+ The extra yellow track tile may be placed either immediately before or
+ immediately after the company's normal track build and is in addition to
+ any additional track-build abilities the company may have.
+\end_layout
+
+\begin_layout Description
+Use: The power may be used during the track-building step of the owning
+ company's operation.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\noun on
+Cie de la Ceinture
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Face
+\begin_inset space ~
+\end_inset
+
+value: 20fr
+\end_layout
+
+\begin_layout Description
+Revenue: 5fr
+\end_layout
+
+\begin_layout Description
+Blocks: E18 and F17
+\end_layout
+
+\begin_layout Description
+Closes: At the start of brown phase
+\noun on
+.
+ 
+\end_layout
+
+\begin_layout Description
+Power: No special powers.
+\end_layout
+
+\begin_layout Description
+Use: None.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\noun on
+Cie de Paris - Saint-Germain
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Face
+\begin_inset space ~
+\end_inset
+
+value: 40fr
+\end_layout
+
+\begin_layout Description
+Revenue: 10fr
+\end_layout
+
+\begin_layout Description
+Blocks: E13
+\end_layout
+
+\begin_layout Description
+Closes: At the start of brown phase
+\noun on
+.
+\end_layout
+
+\begin_layout Description
+Power: An owning public company may place a yellow track tile at E13 at
+ any time in its operations if one has not already been placed there.
+ This is in addition to the company's normal track build.
+ The track tile at E13 does not need to connect to or be part of one of
+ the placing company's routes.
+ This does not close the 
+\noun on
+Cie de Paris - Saint-Germain.
+\end_layout
+
+\begin_layout Description
+Use: The power may be used at any time during a company's operation.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\noun on
+Cie du Havre
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Face
+\begin_inset space ~
+\end_inset
+
+value: 70fr
+\end_layout
+
+\begin_layout Description
+Revenue: 15fr
+\end_layout
+
+\begin_layout Description
+Blocks: C14
+\end_layout
+
+\begin_layout Description
+Closes: At the start of brown phase
+\noun on
+.
+\end_layout
+
+\begin_layout Description
+Power: An owning public company may place a yellow track tile and station
+ marker (must be both) in Le Havre (C14) as its entire track build and station
+ marker placement for a cost of 80fr paid to the bank from the company treasury.
+ This power is not available if a track tile is has already been placed
+ at Le Havre (C14).
+ This does not close the 
+\noun on
+Cie du Havre.
+\end_layout
+
+\begin_layout Description
+Use: The power may be used during the track-building step of a company's
+ operation.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\noun on
+Cie du Val de Loire
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Face
+\begin_inset space ~
+\end_inset
+
+value: 110fr
+\end_layout
+
+\begin_layout Description
+Revenue: 20fr
+\end_layout
+
+\begin_layout Description
+Blocks: G14
+\end_layout
+
+\begin_layout Description
+Closes: When the power is used or at the start of brown phase
+\noun on
+.
+\end_layout
+
+\begin_layout Description
+Power: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+As a player's 
+\noun on
+s
+\noun default
+tock round
+\noun on
+ 
+\noun default
+action in yellow phase or later, or at any time during an operating round,
+ may be exchanged for any 10% share from the IPO chart, or for 10% (half)
+ of a director's certificate (the purchaser must pay for the other 10%),
+ if one is available.
+ The 
+\noun on
+Cie du Val de Loire
+\noun default
+ is then closed and removed from the game.
+\end_layout
+
+\begin_layout Standard
+Or:
+\end_layout
+
+\begin_layout Itemize
+If owned by a public company, the company director may declare during the
+ train-purchasing step of the company's operations that a specific train
+ certificate currently owned by the company will 
+\begin_inset Quotes eld
+\end_inset
+
+obsolete
+\begin_inset Quotes erd
+\end_inset
+
+ instead of rusting.
+ The selected train certificate is marked with the 
+\begin_inset Quotes eld
+\end_inset
+
+Engineers
+\begin_inset Quotes erd
+\end_inset
+
+ card and the 
+\noun on
+Cie du Val de Loire
+\noun default
+ is then closed and removed from the game.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Obsolete train certificates run one more time after they would normally
+ rust and are then discarded immediately before the train-buying step of
+ the company's operations as if they had rusted (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Train-purchasing"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-Phases"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+Obsolete train certificates may not be bought between companies.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If a train certificate marked with the Engineer's card is bought by another
+ company before it becomes obsolete, it loses the Engineer's card and will
+ rust in the normal manner.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Obsolete train certificates do not count against the company's train limit
+\noun on
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Or (
+\emph on
+5 and 6 player games only
+\emph default
+):
+\end_layout
+
+\begin_layout Itemize
+From yellow phase until the start of blue phase may be bought by a public
+ company (must be for exactly face value if in yellow phase):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The private company is immediately closed and becomes a single yellow 
+\begin_inset Quotes eld
+\end_inset
+
+2
+\begin_inset Quotes erd
+\end_inset
+
+ train, additional to the 6 yellow trains normally in the game and which
+ runs in the normal manner and rusts at the start of blue phase in the normal
+ manner (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Train-Roster"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-Phases"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Description
+Use:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If owned by a player, may be exchanged for a 10% share as the player's action
+ in a stock round.
+\end_layout
+
+\begin_layout Itemize
+If owned by a player, may be exchanged for a 10% share at any time during
+ an operating round.
+\end_layout
+
+\begin_layout Itemize
+If owned by a public company, may preserve a train during the train-buying
+ step of a company's operation (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Train-purchasing"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+may be bought by a public company and converted to a yellow 
+\begin_inset Quotes eld
+\end_inset
+
+2
+\begin_inset Quotes erd
+\end_inset
+
+ train at any time from yellow phase on, prior to the purchase of the first
+ blue train (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Train-Roster"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\noun on
+Cie de Boulogne - Amiens
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Face
+\begin_inset space ~
+\end_inset
+
+value: 150fr
+\end_layout
+
+\begin_layout Description
+Revenue: 25fr
+\end_layout
+
+\begin_layout Description
+Blocks: Boulogne-sur-mer/Calais (C18)
+\end_layout
+
+\begin_layout Description
+Closes: At the start of brown phase
+\noun on
+.
+\end_layout
+
+\begin_layout Description
+Power: Comes with a 10% certificate of the 
+\noun on
+Administration des chemins de fer de l'État
+\noun default
+ (ETA).
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+An owning public company may place a track tile and station marker at Boulogne-s
+ur-mer/Calais (C18) instead of its entire normal track build and station
+ marker placement, or may place a station marker on an available city of
+ an already placed track tile at Boulogne-sur-mer/Calais (C18) instead of
+ its entire track-build and station marker placement.
+ The track tile at Boulogne-sur-mer/Calais (C18) does not have to be part
+ of one of the company's routes.
+ The cost is 100fr paid to the bank from the company treasury.
+ This does not close the 
+\noun on
+Cie de Boulogne - Amiens.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Use: The power may be used during the track-building step of a company's
+ operation.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\noun on
+Cie de Lyon - Méditerranée
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Face
+\begin_inset space ~
+\end_inset
+
+value: 210fr
+\end_layout
+
+\begin_layout Description
+Revenue: 30fr
+\end_layout
+
+\begin_layout Description
+Blocks: Nothing
+\end_layout
+
+\begin_layout Description
+Closes: When the 
+\noun on
+Chemins de fer de Paris à Lyon et à la Méditerranée
+\noun default
+ buys a train.
+\end_layout
+
+\begin_layout Description
+Power:
+\noun on
+¡
+\noun default
+ When purchased during the private auction comes with the 20% director's
+ certificate of the 
+\noun on
+Chemins de fer de Paris à Lyon et à la Méditerranée
+\noun default
+.
+ When purchased the owning player must immediately set the par price for
+ the 
+\noun on
+Chemins de fer de Paris à Lyon et à la Méditerranée
+\noun default
+ to any yellow or green par price
+\noun on
+.
+ 
+\noun default
+The
+\noun on
+ Cie de Lyon - Méditerranée
+\noun default
+ private company may not be purchased by a public company, and closes and
+ is removed from the game as soon as the 
+\noun on
+Chemins de fer de Paris à Lyon et à la Méditerranée
+\noun default
+ buys a train.
+\end_layout
+
+\begin_layout Description
+Use: None.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Public Companies
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Public-companies"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Overview
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Public-Company-Overview"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+There are nine public companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Public-Companies"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Each public company consists of:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+9 share certificates:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+One 20% director's certificate.
+\end_layout
+
+\begin_layout Itemize
+Eight 10% certificates.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+2-4 station markers (varies by company, see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Public-Companies"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+One of which is its home station
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A charter for holding and tracking company assets
+\end_layout
+
+\begin_layout Itemize
+A par price marker
+\end_layout
+
+\begin_layout Itemize
+A stock price marker
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Public companies may: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Buy private companies (green phase or later, see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-Phases"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+Place track tiles
+\end_layout
+
+\begin_layout Itemize
+Place station markers
+\end_layout
+
+\begin_layout Itemize
+Buy and run trains
+\end_layout
+
+\begin_layout Itemize
+Pay or withhold dividends
+\end_layout
+
+\begin_layout Itemize
+Collect and/or buy port markers
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Public companies once parred (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Stock-Round-General"
+
+\end_inset
+
+) have:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+A par price, tracked on the par chart.
+\end_layout
+
+\begin_layout Itemize
+A stock price, tracked on the stock market..
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="1in">
+<column alignment="center" valignment="top" width="0.5in">
+<column alignment="center" valignment="top" width="0.6in">
+<column alignment="center" valignment="top" width="0.5in">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Symbol 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Station markers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Home Station
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+Chemins de fer de l'Est
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+EST
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Strasbourg (H24)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+Administration des chemins de fer de l'État
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ETA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nevers (H14)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+Chemin de fer du Midi
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MID
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Albi/
+\begin_inset Newline newline
+\end_inset
+
+Montauban (J9)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+Chemin de fer du Nord
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NOR
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lille (C19)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+Chemins de fer de l'Ouest
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rennes (D8)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+Chemins de fer de Paris à Lyon et à la Méditerranée
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PLM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lyon (J16)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+Chemin de fer de Paris à Orléans
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Orleans (F13)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+Chemins de fer de Provence
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PRO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Marseille (N14)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+Chemin de fer du Sud - Ouest
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bordeaux (H6)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+public companies
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Public-Companies"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Public company special powers
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Public-Company-Special-powers"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The 
+\noun on
+Chemins de fer de l'Est
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+,
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun on
+\color inherit
+ Chemin de fer du Midi
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun on
+\color inherit
+Chemins de fer de l'Ouest
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun on
+\color inherit
+Chemins de fer de Provence
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ and 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun on
+\color inherit
+Chemin de fer du Sud - Ouest
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ may place two yellow track tiles per operating round instead of one yellow
+ track tile at a cost of 20fr paid to the bank from the company treasury
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Special-track-placement"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+In brown phase or later the 
+\noun on
+Chemin de fer du Midi
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun on
+\color inherit
+Chemins de fer de Provence
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ and 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun on
+\color inherit
+Chemin de fer du Sud - Ouest
+\noun default
+ may place or upgrade any port location (Boulogne-sur-mer/Calais (C18),
+ Bordeaux (H7), Brest (A6), Le Havre (C14), Marseille (N15) and Toulouse
+ (K8)) directly to a brown track tile, paying any terrain costs in the normal
+ way 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+(see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Upgrading-track"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Special-track-placement"
+
+\end_inset
+
+)
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+ 
+\end_layout
+
+\begin_layout Section
+Track tiles
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Track-tiles"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Overview 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Track-Tile-Overview"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+There are four colours of track tiles: yellow, green, brown and gray.
+\end_layout
+
+\begin_layout Itemize
+At the beginning of the game only yellow track tiles are available.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Yellow track tiles are placed directly on hexagons of the map.
+\end_layout
+
+\begin_layout Itemize
+Green track tiles upgrade/replace yellow track tiles or are used on yellow-backg
+round map hexagons.
+\end_layout
+
+\begin_layout Itemize
+Brown track tiles upgrade/replace green track tiles.
+\end_layout
+
+\begin_layout Itemize
+Gray track tiles upgrade/replace brown track tiles.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Upgraded track tiles are returned to the supply for later use.
+\end_layout
+
+\begin_layout Subsection
+Track types
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Track-types"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Outside of colour, there are three types of track tiles:
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+City Have one or more white circles for station markers and a revenue value
+ (number in a small white circle)
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Named
+\begin_inset space ~
+\end_inset
+
+City Same as a normal city track tile, but marked with a city name and are
+ must be used for that city's hexagon, often in a specific orientation.
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Paris Has two cities on the yellow map hexagon (Paris and Montparnasse)
+ and three cities in green and brown (North Paris, South Paris and Montparnasse)
+\end_layout
+
+\end_deeper
+\begin_layout Description
+OO
+\begin_inset space ~
+\end_inset
+
+City Have two distinct cities on the same tile and are marked 
+\begin_inset Quotes eld
+\end_inset
+
+OO
+\begin_inset Quotes erd
+\end_inset
+
+ but are otherwise the same as a normal city track tile.
+ OO city tiles can only be placed on hexagons marked 
+\begin_inset Quotes eld
+\end_inset
+
+OO
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Town Have a small cross-bar or black circle marking the town with a line
+ of track passing through it., and a revenue value (number in a small white
+ circle).
+ Town tiles are used on map hexagons containing a black circle.
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Double
+\begin_inset space ~
+\end_inset
+
+town Have two distinct track lines, each of which has a small cross-bar
+ marking the separate towns.
+ Double town tiles are used on map hexagons containing two black circles.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Plain Have one to four lines of track without towns or cities, which directly
+ connect pairs of edges of the hexagon.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Trains
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Trains"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+General
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Trains-General"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Companies run and buy trains during operating rounds (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Run-train(s)"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Buy-train(s)"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Companies with routes are obligated to own a train certificate (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Route-definition"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Emergency-train-buying"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Trains are bought as certificates and the number of train certificates and
+ trains a company can own is controlled by the train limit (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Train-Limit"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Some train certificates represent multiple trains (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Train-types"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Some train certificates are double sided with different trains on each side
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Train-purchasing"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The purchase of train certificates of new colours causes phase changes (see
+ 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:Game-Phases"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-Phases"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Train types 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Train-types"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+
+\emph on
+N
+\emph default
+
+\begin_inset space ~
+\end_inset
+
+trains Run a route no longer than 
+\emph on
+N
+\emph default
+ stops.
+\end_layout
+
+\begin_layout Description
+
+\emph on
+N+M
+\emph default
+
+\begin_inset space ~
+\end_inset
+
+trains Run a route of length
+\emph on
+ N+M
+\emph default
+ stops, no more than 
+\emph on
+N
+\emph default
+ of which may be cities or off boards.
+\end_layout
+
+\begin_layout Description
+
+\emph on
+N/M
+\emph default
+
+\begin_inset space ~
+\end_inset
+
+trains Run the best 
+\emph on
+N
+\emph default
+ stops on a route of length 
+\emph on
+M
+\emph default
+.
+\end_layout
+
+\begin_layout Description
+
+\emph on
+N/M
+\emph default
+\noun on
+×2
+\noun default
+
+\begin_inset space ~
+\end_inset
+
+trains Run as two separate and distinct
+\emph on
+ N/M
+\emph default
+ trains.
+ The two trains cannot be split or separated across companies.
+ 
+\end_layout
+
+\begin_layout Description
+
+\emph on
+N
+\emph default
+E
+\begin_inset space ~
+\end_inset
+
+trains Run the best 
+\emph on
+N
+\emph default
+ stops along a route of any length.
+\end_layout
+
+\begin_layout Description
+Electric/TGV
+\begin_inset space ~
+\end_inset
+
+trains Run any number of stops along a route of any length.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Note: A 
+\begin_inset Quotes eld
+\end_inset
+
+stop
+\begin_inset Quotes erd
+\end_inset
+
+ is a town, city or off board that can provide revenue to a train's route
+ (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Map"
+
+\end_inset
+
+,
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sec:Track-tiles"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Run-train(s)"
+
+\end_inset
+
+).
+\begin_inset Newline newline
+\end_inset
+
+A yellow 
+\begin_inset Quotes eld
+\end_inset
+
+2×2
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+3+1
+\begin_inset Quotes erd
+\end_inset
+
+ train certificate may be run as two 
+\begin_inset Quotes eld
+\end_inset
+
+2
+\begin_inset Quotes erd
+\end_inset
+
+ trains or as a single 
+\begin_inset Quotes eld
+\end_inset
+
+3+1
+\begin_inset Quotes erd
+\end_inset
+
+ train at the director's discretion at the time of running the train, as
+ limited by the train limit at that time (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Train-Limit"
+
+\end_inset
+
+and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Run-train(s)"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0.5in">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Colour
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Type
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Count
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rusted By
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Price
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+125fr
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yellow
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2×2 or 3+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Blue
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+200fr
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+300fr
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Green
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3/5×2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Brown
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+500fr
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+350fr
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Blue
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4/6×2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Red
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+600fr
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5E
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+400fr
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Brown
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5/7×2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gray
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+700fr
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Red
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8E
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gray
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+500fr
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gray
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Electric
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+900fr
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Train Roster
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Train-Roster"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Colour
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Type
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Count
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Price
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yellow
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+125fr
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Green
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+300fr
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Blue
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+350fr
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Brown
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5E
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+400fr
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Red
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8E
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+500fr
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gray
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Electric
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+900fr
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Trains available in Gray Phase
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Gray-Train-Roster"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Stock Market
+\end_layout
+
+\begin_layout Itemize
+The stock market consists of six regions:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+A brown section in the lower left corner.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Multiple stock certificates of companies with stock price markers are in
+ the brown section may be bought in a single stock round action (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Buying-shares"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Players may own more than 60% of companies with stock price markers in the
+ brown section (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Buying-shares"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Stock certificates of companies with stock price markers in the brown section
+ do not count against certificate limit (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Certificate-limit"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+An orange section beside the brown section in the lower left corner:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Players may own more than 60% of companies with stock price markers in the
+ orange section (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Buying-shares"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Stock certificates of companies with stock price markers in the orange section
+ do not count against certificate limit (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Certificate-limit"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A yellow section beside the orange section in the lower left corner:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Stock certificates of companies with stock price markers in the yellow section
+ do not count against certificate limit (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Certificate-limit"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A large body of white stock price boxes differentiated only by value and
+ with no special rules.
+\end_layout
+
+\begin_layout Enumerate
+A diagonal line of yellow, green, blue and brown boxes with red outlines
+ that mark possible par prices for newly floated companies (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Starting-or-floating"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-Phases"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+A stock price of 500fr with a blue background.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The game ends if a stock price marker reaches 500fr (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Game-end"
+
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Public companies have a stock price which is tracked on the stock market
+ with a stock price marker.
+\end_layout
+
+\begin_layout Itemize
+When a public company is parred, its stock price marker is placed on the
+ matching location on the stock market (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Starting-or-floating"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Company stock price markers move in well defined ways (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "sub:Stock-price-movement"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Section
+Game Phases 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Game-Phases"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Yellow phase
+\end_layout
+
+\begin_layout Itemize
+The game begins in yellow phase.
+\end_layout
+
+\begin_layout Itemize
+Yellow pars are available.
+\end_layout
+
+\begin_layout Itemize
+Yellow track tiles are available.
+\end_layout
+
+\begin_layout Itemize
+Yellow trains are available.
+\end_layout
+
+\begin_layout Itemize
+Train limit is no more than 4 trains in no more then 4 train certificates.
+\end_layout
+
+\begin_layout Itemize
+The 
+\noun on
+Cie du Val de Loire
+\noun default
+ may be exchanged for any available 10% share.
+\end_layout
+
+\begin_layout Itemize
+In 6-player games, the 
+\noun on
+Cie du Val de Loire
+\noun default
+ may be bought by a company for face value.
+\end_layout
+
+\begin_layout Itemize
+There is 1 operating round per set after stock rounds.
+\end_layout
+
+\begin_layout Subsection
+Green phase
+\end_layout
+
+\begin_layout Itemize
+Green phase starts with the purchase of the first green train.
+\end_layout
+
+\begin_layout Itemize
+Green and yellow pars are available.
+\end_layout
+
+\begin_layout Itemize
+Private companies may be bought by companies.
+\end_layout
+
+\begin_layout Itemize
+Green and yellow track tiles are available.
+\end_layout
+
+\begin_layout Itemize
+Green trains are available.
+\end_layout
+
+\begin_layout Itemize
+Train limit is no more than 4 trains in no more than 4 train certificates.
+\end_layout
+
+\begin_layout Itemize
+There are 2 operating rounds per set after stock rounds.
+\end_layout
+
+\begin_layout Subsection
+Blue phase
+\end_layout
+
+\begin_layout Itemize
+Blue phase starts with the purchase of the first blue train.
+\end_layout
+
+\begin_layout Itemize
+Blue, green and yellow pars are available.
+\end_layout
+
+\begin_layout Itemize
+All yellow trains are removed from the game.
+\end_layout
+
+\begin_layout Itemize
+Green and yellow track tiles are available.
+\end_layout
+
+\begin_layout Itemize
+Blue trains are available.
+\end_layout
+
+\begin_layout Itemize
+Train limit is no more than 3 trains in no more than 3 train certificates.
+\end_layout
+
+\begin_layout Itemize
+There are 2 operating rounds per set after stock rounds.
+\end_layout
+
+\begin_layout Subsection
+Brown phase
+\end_layout
+
+\begin_layout Itemize
+Brown phase starts with the purchase of the first brown train.
+\end_layout
+
+\begin_layout Itemize
+Brown, blue, green and yellow pars are available.
+\end_layout
+
+\begin_layout Itemize
+All private companies close.
+\end_layout
+
+\begin_layout Itemize
+All green trains are removed from the game.
+\end_layout
+
+\begin_layout Itemize
+Brown, green and yellow track tiles are available.
+\end_layout
+
+\begin_layout Itemize
+Train limit is no more than 3 trains in no more than 2 train certificates.
+\end_layout
+
+\begin_layout Itemize
+There are 3 operating rounds per set after stock rounds.
+\end_layout
+
+\begin_layout Subsection
+Red phase
+\end_layout
+
+\begin_layout Itemize
+Red phase starts with the purchase of the first red train.
+\end_layout
+
+\begin_layout Itemize
+Brown, blue, green and yellow pars are available.
+\end_layout
+
+\begin_layout Itemize
+All blue trains are removed from the game.
+\end_layout
+
+\begin_layout Itemize
+Brown, green and yellow track tiles are available.
+\end_layout
+
+\begin_layout Itemize
+Train limit is no more than 2 trains in no more than 2 train certificates.
+\end_layout
+
+\begin_layout Itemize
+There are 3 operating rounds per set after stock rounds.
+\end_layout
+
+\begin_layout Subsection
+Gray phase
+\end_layout
+
+\begin_layout Itemize
+Gray phase starts with the purchase of the first gray train.
+\end_layout
+
+\begin_layout Itemize
+Brown, blue, green and yellow pars are available.
+\end_layout
+
+\begin_layout Itemize
+All trains are removed from companies.
+\end_layout
+
+\begin_layout Itemize
+All yellow, blue, green, red and brown single trains are returned to the
+ supply.
+\end_layout
+
+\begin_layout Itemize
+Companies may buy and run (single) rusted trains (see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "par:Train-purchasing"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+Gray, brown, green and yellow track tiles are available.
+\end_layout
+
+\begin_layout Itemize
+Train limit is no more than 2 trains in no more than 2 train certificates.
+\end_layout
+
+\begin_layout Itemize
+There are 4 operating rounds per set after stock rounds.
+\end_layout
+
+\end_body
+\end_document
