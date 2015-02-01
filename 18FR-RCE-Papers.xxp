@@ -69,7 +69,6 @@ Sud - Ouest"""
   note1 = """Purchase price of shares goes to bank.
 Market shares pay dividends to treasury.
 Station cost: Free/40fr/100fr/..."""
-  token_count = 4
 
   [[sheet1]]
 
@@ -78,13 +77,14 @@ Station cost: Free/40fr/100fr/..."""
       LIGHT = ${PLM_LIGHT}
       title = ${PLM_NAME}
       token_name = PLM
-      token_count = 3
+      token_count = 4
 
     [[[tile_1.2]]]
       LIGHT = ${PO_LIGHT}
       DARK = ${PO_DARK}
       title = ${PO_NAME}
       token_name = PO
+      token_count = 2
 
     [[[tile_2.1]]]
       DARK = ${SO_DARK}
@@ -98,6 +98,8 @@ Station cost: Free/40fr/100fr/..."""
       DARK = ${ETA_DARK}
       title = ${ETA_NAME}
       token_name = ETA
+      token_count = 4
+
 
   [[sheet2]]
 
@@ -106,28 +108,28 @@ Station cost: Free/40fr/100fr/..."""
       DARK = ${EST_DARK}
       title = ${EST_NAME}
       token_name = EST
-      token_count = 3
+      token_count = 4
 
     [[[tile_1.2]]]
       DARK = ${OU_DARK}
       LIGHT = ${OU_LIGHT}
       title = ${OU_NAME}
       token_name = OU
-      token_count = 2
+      token_count = 3
 
     [[[tile_2.1]]]
       LIGHT = ${PRO_LIGHT}
       DARK = ${PRO_DARK}
       title = ${PRO_NAME}
       token_name = PRO
-      token_count = 2
+      token_count = 3
 
     [[[tile_2.2]]]
       LIGHT = ${NOR_LIGHT}
       DARK = ${NOR_DARK}
       title = ${NOR_NAME}
       token_name = NOR
-      token_count = 3
+      token_count = 2
 
   [[sheet3]]
 
@@ -136,7 +138,7 @@ Station cost: Free/40fr/100fr/..."""
       DARK = ${MID_DARK}
       title = ${MID_NAME}
       token_name = MID
-      token_count = 3
+      token_count = 4
 
 [private]
   frame_colour = ${PRIVATE_BACKGROUND}
