@@ -3,6 +3,7 @@
 *.pdf
 
 Papers
+*.DS_Store
 
 # C extensions
 *.so
