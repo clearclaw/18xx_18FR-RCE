@@ -1,7 +1,9 @@
 18FR-RCE
 ========
 
-18FR-RCE aka 1843 aka "Fried Rice" is a board game; a member of the
+[18FR-RCE aka 1843 aka "Fried
+Rice"](https://www.boardgamegeek.com/boardgame/64570/1843) is a board
+game: a member of the
 [18xx](http://en.wikipedia.org/wiki/18XX) family of stock market
 simulation boardgames.
 
