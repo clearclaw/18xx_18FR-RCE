@@ -1,0 +1,2175 @@
+#LyX 1.6.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 4cm
+\topmargin 3cm
+\rightmargin 4cm
+\bottommargin 0cm
+\footskip 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+18FR-RCE
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+(Revolutionary Commemorative Edition)
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+ English Rules
+\end_layout
+
+\begin_layout Author
+Designer: Michael Liebetanz (1987) & Helmut Ohley (1997 & 2009) - 18FR,
+ 
+\begin_inset Newline newline
+\end_inset
+
+J C Lawrence (2009) - 18FR-RCE
+\end_layout
+
+\begin_layout Section*
+Introduction
+\end_layout
+
+\begin_layout Standard
+18FR-RCE is a re-development and extension of 18FR, itself a re-development
+ and extension of 1830.
+ Core changes include a ninth company, an extended train roster (5-trains
+ rust), an extended tile-mix, and a reduced bank-size.
+ 
+\end_layout
+
+\begin_layout Section*
+Setup
+\end_layout
+
+\begin_layout Standard
+18FR-RCE relies on the track-tiles from 1830.
+ No other 1830 components are required.
+ From 1830's track-tiles, discard the NYC and B tiles (Baltimore & Boston)
+ and add 18FR-RCE's additional tiles.
+ All other components are supplied by 18FR-RCE.
+\end_layout
+
+\begin_layout Standard
+Place one of the three port markers from 18FR-RCE on the anchor symbol beside
+ each of the ports on the map (Bordeaux, Le Havre and Marseilles).
+ Otherwise setup the game as you would any other 18xx game.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Rules Changes from 1830
+\end_layout
+
+\begin_layout Enumerate
+The bank-size is reduced to 10,000fr.
+ Money is not provided with 18FR-RCE (you'll need to supply your own).
+\end_layout
+
+\begin_layout Enumerate
+Player money and company treasuries are open and must remain visible and
+ easily and accurately counted or reviewed by all players at all times.
+\end_layout
+
+\begin_layout Enumerate
+The private companies:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="6">
+<features>
+<column alignment="left" valignment="top" width="1in">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="3cm">
+<column alignment="left" valignment="top" width="3cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cost
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Revenue
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Blocks
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Special Ability
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1830 Equivalent
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+#0 - Compagnie de Toulouse à Barcelona
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+K8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+May lay an extra yellow track-tile (and close the private company)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+None
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+#1 - Cie de la Ceinture
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+F16 & E17
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+None
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Schuylkill Valley Navigation Co.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+#2 - Cie de Paris - St Germain
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+40fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+E13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+May lay an extra tile in E13 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Champlain & St.
+ Lawrence Railroad
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+#3 - Cie de Le havre
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+70fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+May lay a tile and a token in Le Havre (C14) for 80fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Delaware & Hudson Railroad
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+#4 - Cie de Val de Loire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+110fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+G13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+May be exchanged for a 10% share of the 
+\noun on
+Administration des chemins de fer de l'État
+\noun default
+ (ETA)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mohawk & Hudson Railroad
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+#5 - Cie de Bologne - Amiens
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+160fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C17
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Comes with a 10% share of the 
+\noun on
+Cie de fer du Nord
+\noun default
+ (NOR)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Camden & Amboy Railroad
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+#6 - Cie de Lyon - Mediteranee
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+220fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Comes with a 20% share of the PLM.
+ Closes when the PLM buys a train
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Baltimore & Ohio Railroad
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+The private companies in 18FR-RCE are largely functionally identical to
+ their 1830 counterparts.
+ The exception is the 
+\noun on
+#0 - Compagnie de Toulouse à Barcelona.
+ 
+\noun default
+A major company which owns the 
+\emph on
+\noun on
+Cie De Tolouse - Barcelona
+\emph default
+ 
+\noun default
+may pay 20fr to the bank and lay an extra yellow track-tile in the normal
+ manner either immediately before or immediately after its normal track
+ build.
+ The
+\emph on
+\noun on
+ 
+\emph default
+Compagnie de Toulouse à Barcelona
+\noun default
+ is then closed and removed from the game
+\emph on
+\noun on
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Note The 
+\noun on
+Compagnie de Toulouse à Barcelona
+\emph on
+'
+\emph default
+\noun default
+s extra track build does not replace the extra-track-building abilities
+ of the 
+\noun on
+Chemins de fer de l'Est
+\emph on
+ (EST), 
+\emph default
+Chemin de Fer du Midi (MID), Chemins de Fer de l'Ouest (OU), Chemins de
+ Fer de Provence 
+\noun default
+(PRO) or
+\noun on
+ Chemin de Fer du Sud - Ouest
+\noun default
+ (SO), but is rather in addition to the native track-building abilities
+ of its owning company.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Bids during the priate auction may be any multiple of 5fr that is larger
+ than the current largest bid or the face value of the private company.
+\end_layout
+
+\begin_layout Enumerate
+This is a 
+\emph on
+sell-buy-sell
+\emph default
+ game.
+ During a player's turn during a stock round they may sell one or more shares,
+ buy shares (typically one unless the stock-price is in the brown-zone),
+ and then sell one or more shares (including the one they just bought).
+\end_layout
+
+\begin_layout Enumerate
+When selling shares of multiple companies, the player may choose the order
+ in which they are sold and thus control their relative order if their stock
+ prices are in the same place on the Stock Market.
+\end_layout
+
+\begin_layout Enumerate
+When buying shares of a company whose stock price is in the brown-zone (may
+ buy multiple shares in a single purchase), shares may be purchased from
+ the IPO supply and Open market together as a single transaction.
+\end_layout
+
+\begin_layout Enumerate
+It is not required that a company placing or upgrading a track-tile be able
+ to trace a route to some of the new track on the tile, or that the tile
+ increase the revenue-value of a city or town which may be reached by the
+ operating company.
+ It is merely required that the company be able to reach some track on the
+ tile after the new tile is placed.
+\end_layout
+
+\begin_layout Enumerate
+The public companies:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="4">
+<features>
+<column alignment="left" valignment="top" width="2in">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Abbreviation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tokens
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Home Station
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+Administration des chemins de fer de l'État
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ETA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nevers, H14
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+Chemins de fer de l'Est
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+EST
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Strasbourg, H24
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+Chemins de Fer de Provence
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PRO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Marseilles, N14
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+Chemin de Fer du Nord
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NOR
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lille, C19
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+Chemin de Fer du Midi
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MID
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Montauban/Albi, J9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+Chemins de Fer de l'Ouest
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rennes, D8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+Chemins de fer de Paris à Lyon et à la Méditerranée
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PLM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lyon, J16
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+Chemin de Fer de Paris à Orléans
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Paris (SW), E15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+Chemin de Fer du Sud - Ouest
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bordeaux, H6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+The 
+\noun on
+Chemins de fer de l'Est
+\noun default
+ (EST)
+\noun on
+, Chemin de Fer du Midi
+\noun default
+ (MID)
+\noun on
+, Chemins de Fer de l'Ouest
+\noun default
+ (OU)
+\noun on
+, Chemins de Fer de Provence
+\noun default
+ (PRO), and
+\noun on
+ Chemin de Fer du Sud - Ouest
+\noun default
+ (SO) may place a second additional yellow tile in addition to their normal
+ yellow tile placement in each Operating Round for 20fr paid from the company
+ treasury, or they may place a single yellow track-tile or upgrade a single
+ tile in the normal manner.
+\end_layout
+
+\begin_layout Enumerate
+The supply of yellow #7, #8 and #9 track-tiles is unlimited.
+\end_layout
+
+\begin_layout Enumerate
+Hexes containing mountains or hills (brown triangles) or rivers (blue triangles)
+ cost 80fr from the company treasury to build a yellow track-tile.
+\end_layout
+
+\begin_layout Enumerate
+Paris has special tiles in green and brown and costs 40fr each time to upgrade
+ its track-tile.
+\end_layout
+
+\begin_layout Enumerate
+The Paris track-tiles must be laid so that Montparnasse (the city on the
+ south-western edge and the home station of the 
+\noun on
+Chemin de Fer de Paris à Orléans
+\noun default
+) remains a single station with only one exit.
+\end_layout
+
+\begin_layout Enumerate
+Lille and Lyon have special track-tiles in yellow, green and brown which
+ must be used for those locations.
+ Additionally, the yellow track-tiles for Lille and Lyon must be oriented
+ so that the text on the track-tile runs from south-west to north-east (parallel
+ to the bottom edge of the map)
+\end_layout
+
+\begin_layout Enumerate
+Bordeaux, Le Havre and Marseille have special track tiles in green and brown
+ (one of the two station market locations is marked with a port symbol).
+ 
+\end_layout
+
+\begin_layout Enumerate
+The train roster has been extended:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="5">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Train-type
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Number
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Price
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lifetime
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Track-tiles
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+80fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rusted by 4-train
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yellow
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+180fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rusted by 6-train
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Green
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+300fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rusted by 7-train & Diesel-train
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Green
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+400fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rusted by Diesel-train
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Brown
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+630fr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Permanent
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Brown
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+710fr or 560fr upgrade
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Permanent
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gray
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diesel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+999
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+900fr or 750fr upgrade
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Permanent
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gray
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+The 7-trains and Diesel-trains are available for purchase immediately after
+ the first 6-train has been purchased.
+ The purchase of the first 7-train rusts the 4-trains.
+ The purchase of the first Diesel-train rusts the 5-trains (and 4-trains,
+ should a 7-train not have been already bought).
+ 
+\end_layout
+
+\begin_layout Enumerate
+5-trains, 6-trains and 7-trains may be upgraded to a (larger) 7-train, or
+ Diesel-train for 560fr or 750fr respectively (if those trains are available
+ for purchase).
+ The train that was upgraded is removed from the game along with any other
+ trains that were rusted by the purchase.
+\end_layout
+
+\begin_layout Enumerate
+Once a 5-train has been purchased, a yellow double-town track tile at E14,
+ F19, or G14 may be directly upgraded to the brown 5-way 20fr single-town
+ track-tile.
+\end_layout
+
+\begin_layout Enumerate
+After a 5-train has been purchased the 
+\noun on
+Chemins de Fer de Provence
+\noun default
+ (PRO) and
+\noun on
+ Cie du Sud-Ouest
+\noun default
+ (SO) may, as part of their normal track-build, place the special brown
+ tiles for the port cities of Bordeaux, Le Havre, or Marseilles even if
+ a yellow track-tile or green track-tile hasn't been placed there yet (subject
+ to the other normal track-placement and route rules).
+\end_layout
+
+\begin_layout Enumerate
+The supply of Diesel-trains is infinite.
+ (In practice it is simpler to cease discarding trains once only Diesel-trains
+ are left)
+\end_layout
+
+\begin_layout Enumerate
+If stock is sold during a forced train purchase such that control of a company
+ changes to a new president, then presidential control is transfered before
+ the train is purchased.
+\end_layout
+
+\begin_layout Enumerate
+If a company president contributes money for a forced train purchase from
+ another company, the purchase price may not exceed the face value of the
+ train.
+ 
+\end_layout
+
+\begin_layout Enumerate
+A company placing a station-marker on a green or brown track-tile at the
+ port cities Bordeaux, Le Havre or Marseilles may take the port-marker and
+ place it on its charter if it is still available.
+ This rule also applies to the home station of the 
+\noun on
+Chemins de Fer de Provence
+\noun default
+ (PRO) and 
+\noun on
+Chemin de Fer du Sud - Ouest
+\noun default
+ (SO) when they place their first track-tile.
+\end_layout
+
+\begin_layout Enumerate
+When a track-tile at Bordeaux, Le Havre or Marseille is upgraded, a station
+ marker on the non-port side of the track-tile (or that was on the previous
+ yellow track-tile) may be moved to the port-side and the port token taken
+ (if still available) and placed on that station-marker's company's charter
+ at the upgrading company-president's choice
+\end_layout
+
+\begin_layout Enumerate
+The 
+\noun on
+Chemins de Fer de Provence (PRO)
+\noun default
+ and 
+\noun on
+Chemin de Fer du Sud - Ouest (SO)
+\noun default
+ may move a station marker on a green or brown track-tile at Bordeaux, Le
+ Havre or Marseille (and to which they can trace a legal route) from the
+ non-port side to the unclaimed port-side of that track-tile and thus assign
+ the port marker to that company in lieu of one of their yellow track builds.
+\end_layout
+
+\begin_layout Enumerate
+A company with a port-marker on its charter receives 20fr from the bank
+ at the start of each Operating Round for each port marker it has.
+\end_layout
+
+\begin_layout Enumerate
+All private companies close on the purchase of the first 5-train.
+ However, port-tokens remain in play until the end of the game.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Gray track-tiles may be placed after the first 7-train or Diesel-train has
+ been purchased.
+ The gray #513 tile upgrades any brown #63 tile.
+ The gray #167 tile upgrades any brown Double-O track-tile.
+ 
+\end_layout
+
+\begin_layout Enumerate
+At the end of each set of Operating Rounds the smallest available train
+ available from the supply (not the Open Market) is discarded from the game.
+ If the discarded train is the last of its type, then the first train of
+ the newly available type is also discarded.
+ Game-phase changes occur exactly as if a public company had bought the
+ discarded trains.
+\end_layout
+
+\begin_layout Enumerate
+If all of a company's shares are held by players (100%) and its stock price
+ is on the top row of the Stock Market at the end of a Stock Round, then
+ its stock price is moved is moved down and to the right.
+ If the stock price has reached the highest possible value, then it isn't
+ moved.
+\end_layout
+
+\begin_layout Section*
+Background
+\end_layout
+
+\begin_layout Standard
+Among Helmut Ohley's design goals for 18FR was to produce a game with a
+ lower rate of bankruptcies than 1830.
+ However 18FR had a very similar rate of player-bankruptcies to 1830 in
+ our group.
+ 18FR-RCE's primary goals are to reduce the bankruptcy rate to well below
+ 50% of games, while also providing for more interesting train and track
+ management sub-games without significantly increasing play-time.
+\end_layout
+
+\begin_layout Section*
+Designer's notes
+\end_layout
+
+\begin_layout Standard
+18FR is a fine and interesting game, but it has significant problems:
+\end_layout
+
+\begin_layout Itemize
+The 
+\noun on
+Cie de la Ceinture
+\noun default
+ (the cheapest private company in 18FR) controls access to eastern Paris.
+ This is so strong and valuable that many players feel that it should be
+ simply bought at the first opportunity; it is too large a reward to be
+ determined by random seating order.
+\end_layout
+
+\begin_layout Itemize
+The 
+\noun on
+Cie de St Etienne
+\noun default
+'s special power is largely useless.
+ It is too far away from Paris, and there are too many tokens and possibly
+ blocking track between it and Paris to be interesting.
+ As a result the only real value for the 
+\noun on
+Cie de St Etienne
+\noun default
+ was for selling it to a major company.
+\end_layout
+
+\begin_layout Itemize
+Bankruptcies are no more uncommon in 18FR than in 1830.
+ Stylistically I prefer games to end in bankruptcy no more than 25%-30%
+ of the time at the outside, thus preserving interest in late-game planning,
+ Diesel-train runs etc.
+\end_layout
+
+\begin_layout Itemize
+Diesel routes tended to be small, usually in the 40fr - 55fr range, making
+ for an extended end-game that over-valued diesel trains as they ran for
+ 8+ Operating Rounds.
+\end_layout
+
+\begin_layout Standard
+Some of the changes made in 18FR-RCE and supporting reasons:
+\end_layout
+
+\begin_layout Itemize
+Track is rarely built to Brest in 18FR.
+ It is in the wrong direction, has annoying towns along the way, and isn't
+ worth enough.
+ Sometimes it is built in the very late game for Diesel runs, but that is
+ still rare as Brest is a dead-end.
+ An additional hex was added beside Brest and the track on Brest changed
+ in order to allow Diesels to run to and through Brest.
+ 
+\end_layout
+
+\begin_layout Itemize
+In order to solve already mentioned problem with the 
+\noun on
+Cie de la Ceinture
+\noun default
+, a new private company was added to the bottom of the private-auction.
+ This had the side effect of also increasing the number of private companies,
+ which changes the balance and timing points of the traditional 1830 private
+ auction in interesting ways, most especially for larger player counts.
+ 
+\end_layout
+
+\begin_layout Itemize
+Additionally the new private company was given a small special power of
+ an extra one-time tile-lay.
+ A less invasive change was considered for shuffling the order, values and
+ powers of the current private companies (in particular moving the 
+\noun on
+Cie de Bologne - Amiens
+\noun default
+ to block the hexes currently controlled by the 
+\noun on
+Cie de la Ceinture
+\noun default
+), but was discarded as being too invasive when combined with all the other
+ adjustments then required.
+ Instead a new private company was added.
+ The new private company is so cheap and its revenue so small, that those
+ numbers are mostly insignificant.
+ However the extra tile-lay significantly changes the balance of tempo and
+ positioning among the various companies in interesting ways, most especially
+ n the companies north of Paris, even more so when combined with the 
+\emph on
+\noun on
+Cie de le Havre
+\emph default
+\noun default
+.
+\end_layout
+
+\begin_layout Itemize
+The 
+\noun on
+Cie de Paris - St Germain
+\noun default
+'s hex was changed from a single town to a double town.
+ This increases the number of double-town hexes to match 1830 and makes
+ the exact choice and timing of the track-tile placed there by the 
+\noun on
+Cie de Paris - St Germain
+\noun default
+ more interesting.
+ The presence of the extra town and its track additionally makes the Double-O
+ at Le Mans frequently strategically interesting in the early game for those
+ planning late-game strategic track connections through the 
+\noun on
+Cie de Paris - St Germain
+\noun default
+'s hex.
+\end_layout
+
+\begin_layout Itemize
+The number of yellow #57 tiles was increased as we found that ~80% of 18FR
+ games had one or more companies starting with no tile to place on their
+ home-station, and this was thought too common to be interesting.
+\end_layout
+
+\begin_layout Itemize
+The increased early focus on Le Mans provides a timing challenge for the
+ Double-O at Calais.
+ They frequently want the same brown tile, and to later upgrade to the new
+ gray Double-O tile.
+ That tension also increases the possibility that the green #59 Double-O
+ tile may not be available for the 
+\noun on
+Chemin de Fer du Midi
+\noun default
+'s home station (in its new location) when it starts (much like the Erie
+ in 1830).
+\end_layout
+
+\begin_layout Itemize
+The additional station marker for Lille in the brown tiles simply balances
+ the positional power of the 3-station brown tile for Lyon, while providing
+ for a back-door around the key hex at D17 and to the gray Double-O upgrade
+ should it be placed at Calais.
+ 
+\end_layout
+
+\begin_layout Itemize
+The 
+\noun on
+Cie de St Etienne
+\noun default
+ was moved to Le Havre in order to provide more conflict to the north of
+ Paris, where previously only the 
+\noun on
+Chemin de Fer du Nord 
+\noun default
+and
+\noun on
+ Chemins de Fer de l'Ouest
+\noun default
+ fought.
+ A track-stub and town were added to Le Havre in order to force the orientation
+ of the #57 track tile so that the 
+\noun on
+Cie de Le Havre
+\noun default
+ wouldn't be too strong.
+ 
+\end_layout
+
+\begin_layout Itemize
+The new 
+\noun on
+Cie De le Havre
+\noun default
+ combines with the new 
+\emph on
+\noun on
+Compagnie de Toulouse à Barcelona
+\emph default
+\noun default
+ private company in interesting ways, making the track decisions north of
+ Paris more interesting.
+\end_layout
+
+\begin_layout Itemize
+Track stubs were added to Nevers, Toulouse and St.
+ Etienne.
+ Toulouse and St.
+ Etienne were made yellow hexes.
+ These changes slightly strengthened their nearby companies.
+ 
+\end_layout
+
+\begin_layout Itemize
+A 5-exit single town upgrade for one double-town yellow tile was added in
+ order to help push track-building interest into the late-game.
+ It also encourages larger Diesel-train runs, which, as they break the bank
+ more quickly, reduce the potential value of Diesel-trains.
+\end_layout
+
+\begin_layout Itemize
+Two gray tiles were added, one to upgrade a brown #63 city tile while adding
+ a station location, and the other as an upgrade for any Double-O tile.
+ Both these tiles make the end-game track-building and final station-placements
+ more interesting, while also allowing good train-routes that don't necessarily
+ involve Paris.
+ 
+\end_layout
+
+\begin_layout Itemize
+The train-roster was extended so that the new 9th company wouldn't allow
+ the trains to be driven so extremely fast that all games ended on bankruptcy
+ in the 5-trains.
+ Additionally, as all companies will usually float well before the permanent
+ trains are available, the race for buying two (permanent) 5-trains is lost,
+ leaving instead an interesting capital management and timing problem for
+ the last expensive but impermanent trains.
+\end_layout
+
+\begin_layout Itemize
+1830 Coalfields train-obsolescence rule was not used, but the rule to allow
+ a 4-train to be upgraded to a permanent train was used (and extended).
+ This has the effect of strengthening the 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+poison 5-train
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ effect, while also providing for a dramatic and fast train-rush just before
+ the end-game.
+ (Often the first 6-train will be discarded, with the next company to buy
+ a train buying a Diesel-train, thus rusting every other train in the game,
+ aka World War II.)
+\end_layout
+
+\begin_layout Itemize
+The 7-trains and Diesel-trains are made available for purchase immediately
+ after the first 6-train is bought in order to partially simulate the massive
+ destruction and subsequent replacement of rolling stock due to World War
+ II, as well to shorten and add drama to the end-game.
+\end_layout
+
+\begin_layout Itemize
+The rule to discard one or two trains at the end of each set of Operating
+ Rounds was added so as to soften the last 
+\begin_inset Quotes eld
+\end_inset
+
+poison
+\begin_inset Quotes erd
+\end_inset
+
+ 5-trains while retaining an interesting and significant decision, to make
+ capital management into the permanent trains interesting, while also keeping
+ the game moving forward.
+\end_layout
+
+\begin_layout Itemize
+A new Double-O location was added to the board so as to equal theall number
+ of Double-O locations on 1830's map.
+ The new Double-O location was also made the starting location for a company
+ so that there could be tension over availability of a green #59 tile for
+ the home-station, again, as in 1830.
+\end_layout
+
+\begin_layout Itemize
+The new ninth company, the 
+\noun on
+Chemins de Fer de Provence
+\emph on
+,
+\emph default
+\noun default
+ was placed in Marseilles, replacing the 
+\noun on
+Chemin de Fer du Midi
+\noun default
+ which moved to Montauban/Albi.
+\end_layout
+
+\begin_layout Itemize
+The 
+\noun on
+cie du centre
+\noun default
+ was replaced with the 
+\noun on
+Administration des chemins de fer de l'État.
+
+\noun default
+ While the 
+\noun on
+cie du centre
+\noun default
+ was historically a proposed company, it never actually existed.
+ The 
+\noun on
+Administration des chemins de fer de l'État
+\noun default
+ however did exist and operated in parallel to the 
+\noun on
+Chemin de Fer de Paris à Orléans
+\noun default
+ in the Paris/Bordeaux area.
+\end_layout
+
+\begin_layout Itemize
+An additional track-exit was added to the
+\noun on
+ Administration des chemins de fer de l'État
+\noun default
+'s home station in order to strengthen the company slightly should it be
+ tokened-out at both enall ds.
+\end_layout
+
+\begin_layout Itemize
+The Genève off-board was changed from a dead-end off-board spike to a pass-throu
+gh sharp-curve track in order to pull a little development focus away from
+ Paris, especially in the brown track-tile phase.
+ This also adds some tension to the diesel-track game.
+\end_layout
+
+\begin_layout Itemize
+Additional pre-built track, including the home-station tile, were added
+ to the map for the 
+\noun on
+Chemins de fer de l'Est
+\noun default
+ in order to make the the 
+\noun on
+Chemins de fer de l'Est
+\noun default
+ more viable in the early game as a contender around Paris, and to help
+ move a little of the late game's track-development focus to the Geneva/Lyon
+ area.
+\end_layout
+
+\begin_layout Itemize
+The rule regarding 100% owned companies moving down and to the right from
+ the top row was added in order push a little focus back onto Stock Development
+ and away from big diesel runs.
+\end_layout
+
+\begin_layout Itemize
+A town was moved from H19 to F19 in order to make track development to the
+ west of Paris more interesting.
+\end_layout
+
+\begin_layout Itemize
+The pre-built track at I22 was made yellow in order to encourage more interestin
+g route development around Geneva
+\end_layout
+
+\begin_layout Itemize
+The possibility to upgrade to a 6-train was removed, as that so reduced
+ the poison potential of the 5-trains as to almost nullify the Word War
+ II moment of all trains in all companies rusting as the first diesel train
+ is bought.
+\end_layout
+
+\begin_layout Itemize
+Added the rules for claiming port markers during track upgrades in order
+ to slightly strengthen the 
+\noun on
+#3 - Cie de Le havre 
+\noun default
+private company and provide increased early game volatility in Le Havre,
+ as well as the early game value and flexibility of the 
+\noun on
+Chemins de Fer de Provence
+\noun default
+ (PRO) and
+\noun on
+ Cie du Sud-Ouest
+\noun default
+ (SO).
+\end_layout
+
+\begin_layout Itemize
+Removed the upgrade path from 4-trains.
+ They are already the best trains in the game.
+ They don't need to be better.
+\end_layout
+
+\begin_layout Section*
+Acknowledgments
+\end_layout
+
+\begin_layout Standard
+Thank you to Fall rancis Tresham for the design and development of the wonderful
+ field of 18xx games, Helmut Ohley for 18FR and his support and encouragement
+ in the production of 18FR-RCE, David G Hecht for kindly suggesting the
+ subtitle (Revolutionary Commemorative Edition) for the game along with
+ many language points and art for the trains, John Tamplin for his assistance
+ with track-tile development, and Michael Calhoon for his bounteous supply
+ of notions, complaints and sounding board in equal measures.
+ Additional thanks go to the many playtesters, some few of whom are Daniel
+ Barnes, Jim Black, Michael Calhoon, Aliza Panitz, Tim Skirvin and Ron Sapolsky.
+ Credit also goes to those who helped correct the various names and spellings
+ for the map and other components, including James Cheevers, David G Hecht,
+ Bruce Murphy and Steve Thomas.
+ I have been honoured to design games for and with such wonderful people.
+ I hope you enjoy the game!
+\end_layout
+
+\begin_layout Standard
+-- J C Lawrence
+\end_layout
+
+\end_body
+\end_document
