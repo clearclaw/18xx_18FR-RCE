@@ -436,7 +436,7 @@ May not be bought by a company."""
 -
 3/4"""
     frame_colour = ${YELLOW}
-    cost = Cost: 170fr
+    cost = Cost: 175fr
     rust = Rusted by: BLUE
     trade_stripe_colour = ${GREEN}
     rust_stripe_colour = ${BLUE}
@@ -453,7 +453,7 @@ May not be bought by a company."""
   [[green2]]
     frame_colour = ${GREEN}
     train = 3/5x2
-    cost = Cost: 425fr
+    cost = Cost: 350fr
     rust = Rusted by: BROWN
     trade_stripe_colour = ${BLUE}
     rust_stripe_colour = ${BROWN}
@@ -469,7 +469,7 @@ May not be bought by a company."""
   [[blue2]]
     frame_colour = ${BLUE}
     train =  4/6x2
-    cost = Cost: 475fr
+    cost = Cost: 400fr
     rust = Rusted by: RED
     trade_stripe_colour = ${BROWN}
     rust_stripe_colour = ${RED}
@@ -485,7 +485,7 @@ May not be bought by a company."""
   [[brown2]]
     frame_colour = ${BROWN}
     train = 5/7x2
-    cost = Cost: 650fr
+    cost = Cost: 500fr
     rust = Rusted by: GRAY
     trade_stripe_colour = ${RED}
     rust_stripe_colour = ${GRAY}
